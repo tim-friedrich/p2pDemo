@@ -10,6 +10,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4",
-    "OpenHPI-P2P_CDN": "^1.0.0"
+    "webrtc-p2p-cdn": "^1.0.0"
+  },
+  "engines": {
+    "node": "8.9.1"
   }
 }
