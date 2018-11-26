@@ -1,9 +1,9 @@
 var express = require('express');
 var app = express();
-const ServerSignaling = require('OpenHPI-P2P_CDN/src/server/signaling');
+const ServerSignaling = require('webrtc-p2p-cdn/src/server/signaling');
 
 const clientPath = './web_app';
-const p2pPath = './node_modules/OpenHPI-P2P_CDN/build/src'
+const p2pPath = './node_modules/webrtc-p2p-cdn/build/src'
 const port = 8080;
 
 app.use(express.static(clientPath));
