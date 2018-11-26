@@ -49,9 +49,10 @@
               '/video/',
               '/video2/'
             ],
-            path: 'sw.js',
+            path: 'p2pCDNsw.js',
             scope: '/',
-            basePath: '/'
+            basePath: '/',
+            storageQuota: '20'
         }
       };
     var peer = new Peer(config);
