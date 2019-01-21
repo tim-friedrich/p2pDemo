@@ -26,7 +26,7 @@
 
     <script src="/socket.io/socket.io.js"></script>
 
-    <script src="js/debug.js"></script>
+    <!-- <script src="js/debug.js"></script> -->
     <script src="utils.js"></script>
 
     <script src="p2pCDN.js"></script>
@@ -46,16 +46,15 @@
           urlsToShare:
             [
               '/img/',
-              '/video/',
-              '/video2/'
+              '/video/'
             ],
-            path: 'p2pCDNsw.js',
+            path: '/p2pCDNsw.js',
             scope: '/',
             basePath: '/',
-            storageQuota: '20'
+            storageQuota: '10000'
         }
       };
-    var peer = new Peer(config);
+    var cdn = new p2pCDN(config);
     </script>
 
     <script src="https://vjs.zencdn.net/7.0.5/video.js"></script>
@@ -82,7 +81,7 @@
 <div style="float: right; width: 50%">
 
     <div style="float: left;">
-        <p id="dataBig" style="float: left"></p>
+        <p id="dataBig" style="float: left"><img style="height: 250px; width: auto;" src="img/fab.gif"></p>
 
         <div style="float: left">
             <video id="video"
@@ -94,26 +93,6 @@
                     Your browser doesn't support video.
                 </p>
                 <source src="/video/example_video.m3u8">
-            </video>
-        </div>
-    </div>
-
-</div>
-<div style="float: right; width: 50%">
-
-    <div style="float: left;">
-        <p id="dataBig2" style="float: left"></p>
-
-        <div style="float: left">
-            <video id="video"
-                   class="video-js vjs-default-skin"
-                   height="220"
-                   width="380"
-                   controls>
-                <p>
-                    Your browser doesn't support video.
-                </p>
-                <source src="/video2/example_video.m3u8">
             </video>
         </div>
     </div>
