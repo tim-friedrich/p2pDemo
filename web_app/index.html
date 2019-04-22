@@ -22,19 +22,20 @@
     <link href="https://vjs.zencdn.net/7.0.5/video-js.css" rel="stylesheet">
 
     <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/idb-keyval@3/dist/idb-keyval-iife.min.js"></script>
 
-    <script src="/socket.io/socket.io.js"></script>
+    <!-- <script src="/socket.io/socket.io.js"></script> -->
 
     <!-- <script src="js/debug.js"></script> -->
-    <script src="utils.js"></script>
+    <!-- <script src="utils.js"></script> -->
 
     <script src="p2pCDN.js"></script>
+    <script src="faye-browser.js"></script>
 
     <script> // init
-    localStorage.debug = '*,-socket.io*,-engine*';
     var config = {
       channel: 'FIXED_CLASS_1',
+      clientId: Math.floor(Math.random() * 100),
+      idLength: 10,
       stunServer: {
         'iceServers': [
           // {
@@ -42,6 +43,7 @@
           // },
         ]
       },
+      verbose: true,
       serviceWorker: {
           urlsToShare:
             [
@@ -51,10 +53,13 @@
             path: '/p2pCDNsw.js',
             scope: '/',
             basePath: '/',
-            storageQuota: '10000'
+            storageQuota: '10000',
+            cachingEnabled: false,
+            verbose: true,
+            statisticPath: '/logs'
         }
       };
-    var cdn = new p2pCDN(config);
+    var cdn = new P2pCDN(config);
     </script>
 
     <script src="https://vjs.zencdn.net/7.0.5/video.js"></script>
