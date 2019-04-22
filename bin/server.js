@@ -1,6 +1,7 @@
 var express = require('express');
 var app = express();
 var bodyParser = require("body-parser");
+var session = require('express-session')
 
 
 const FayeServerSignaling = require('webrtc-p2p-cdn/src/server/fayeSignaling');
@@ -20,6 +21,13 @@ app.use(bodyParser.json());
 app.use(express.static(clientPath));
 app.use(express.static(p2pPath));
 app.use(express.static(fayePath));
+app.set('trust proxy', 1) // trust first proxy
+app.use(session({
+  secret: 'keyboard cat',
+  resave: false,
+  saveUninitialized: true,
+  cookie: { secure: true }
+}))
 
 // const signaling = new ServerSignaling();
 var server = app.listen(port, function () {
