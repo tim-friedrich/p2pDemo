@@ -34,8 +34,8 @@
     <script> // init
     var config = {
       channel: 'FIXED_CLASS_1',
-      clientId: Math.floor(Math.random() * 100),
-      idLength: 10,
+      clientId: '<%= sessionID %>', // Math.floor(Math.random() * 100),
+      idLength: 32,
       stunServer: {
         'iceServers': [
           // {
