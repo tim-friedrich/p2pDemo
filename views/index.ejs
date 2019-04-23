@@ -23,18 +23,13 @@
 
     <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
 
-    <!-- <script src="/socket.io/socket.io.js"></script> -->
-
-    <!-- <script src="js/debug.js"></script> -->
-    <!-- <script src="utils.js"></script> -->
-
     <script src="p2pCDN.js"></script>
     <script src="faye-browser.js"></script>
 
     <script> // init
     var config = {
       channel: 'FIXED_CLASS_1',
-      clientId: '<%= sessionID %>', // Math.floor(Math.random() * 100),
+      clientId: '<%= sessionID %>',
       idLength: 32,
       stunServer: {
         'iceServers': [
@@ -133,7 +128,9 @@
     var doc = document.getElementById('dataSmall');
     doc.innerHTML += '<img style="height: 60px; width: auto;" src="img/hpi.png">';
   };
-  videojs(document.querySelector('video'));
+  document.addEventListener("DOMContentLoaded", function(event) {
+    videojs(document.querySelector('video', {autoplay: true})).play();
+  });
 
 </script>
 
