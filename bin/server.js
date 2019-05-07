@@ -13,7 +13,7 @@ const logPath = './logs/log.csv'
 const fastcsv = require('fast-csv');
 const fs = require('fs');
 
-const port = process.env.PORT || 80;
+const port = process.env.PORT || 8080;
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());

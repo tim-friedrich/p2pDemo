@@ -43,7 +43,8 @@
           urlsToShare:
             [
               '/img/',
-              '/video/'
+              '/video/',
+              '/testfiles/'
             ],
             path: '/p2pCDNsw.js',
             scope: '/',
@@ -122,6 +123,9 @@
   document.getElementById('btnDataBig').onclick = function() {
     var doc = document.getElementById('dataBig');
     doc.innerHTML += '<img style="height: 250px; width: auto;" src="img/fab.gif">';
+    // var xhttp = new XMLHttpRequest();
+    // xhttp.open("GET", "testfiles/30mb", true);
+    // xhttp.send();
   };
 
   document.getElementById('btnDataSmall').onclick = function() {

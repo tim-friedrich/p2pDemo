@@ -16,7 +16,8 @@
     "express-session": "^1.16.1",
     "fast-csv": "^2.4.1",
     "faye": "^1.2.4",
-    "webrtc-p2p-cdn": "^1.0.3"
+    "puppeteer": "^1.14.0",
+    "webrtc-p2p-cdn": "^1.0.4"
   },
   "engines": {
     "node": "8.9.1"
