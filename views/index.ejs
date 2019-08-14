@@ -24,39 +24,45 @@
     <script src="https://webrtc.github.io/adapter/adapter-latest.js"></script>
 
     <script src="p2pCDN.js"></script>
+
     <script src="faye-browser.js"></script>
 
     <script> // init
-    var config = {
-      channel: 'FIXED_CLASS_1',
-      clientId: '<%= sessionID %>',
-      idLength: 32,
-      stunServer: {
-        'iceServers': [
-          // {
-          //   'urls': 'stun:stun.l.google.com:19302',
-          // },
-        ]
-      },
-      verbose: true,
-      serviceWorker: {
-          urlsToShare:
-            [
-              '/img/',
-              '/video/',
-              '/testfiles/'
-            ],
-            path: '/p2pCDNsw.js',
-            scope: '/',
-            basePath: '/',
-            storageQuota: '10000',
-            cachingEnabled: false,
-            verbose: true,
-            statisticPath: '/logs'
-        }
-      };
-    var cdn = new P2pCDN(config);
+    window.onload = function() {
+      var config = {
+        channel: 'FIXED_CLASS_1',
+        clientId: '<%= sessionID %>',
+        idLength: 32,
+        stunServer: {
+          'iceServers': [
+            // {
+            //   'urls': 'stun:stun.l.google.com:19302',
+            // },
+          ]
+        },
+        logLevel: 'all',
+        verbose: true,
+        serviceWorker: {
+            urlsToShare:
+              [
+                // '/img/',
+                // '/video/',
+                '/testfiles/'
+              ],
+              path: '/p2pCDNsw.js',
+              scope: '/',
+              basePath: '/',
+              storageQuota: '10000',
+              fetchTimeout: 10000000000,
+              cachingEnabled: false,
+              verbose: true,
+              statisticPath: '/logs'
+          }
+        };
+      cdn = new P2pCDN(config);
+    };
     </script>
+
 
     <script src="https://vjs.zencdn.net/7.0.5/video.js"></script>
 </head>
@@ -122,10 +128,53 @@
 
   document.getElementById('btnDataBig').onclick = function() {
     var doc = document.getElementById('dataBig');
-    doc.innerHTML += '<img style="height: 250px; width: auto;" src="img/fab.gif">';
+    // doc.innerHTML += '<img style="height: 250px; width: auto;" src="img/fab.gif">';
+    // doc.innerHTML += '<img style="height: 250px; width: auto;" src="img/fab.gif">';
+    // doc.innerHTML += '<img style="height: 250px; width: auto;" src="img/fab.gif">';
+    // doc.innerHTML += '<img style="height: 250px; width: auto;" src="img/fab.gif">';
+    // doc.innerHTML += '<img style="height: 250px; width: auto;" src="img/fab.gif">';
+    // doc.innerHTML += '<img style="height: 250px; width: auto;" src="img/fab.gif">';
+    // doc.innerHTML += '<img style="height: 250px; width: auto;" src="img/fab.gif">';
     // var xhttp = new XMLHttpRequest();
-    // xhttp.open("GET", "testfiles/30mb", true);
+    // xhttp.open("GET", "img/fab.gif", true);
     // xhttp.send();
+    // var xhttp = new XMLHttpRequest();
+    // xhttp.open("GET", "img/fab.gif", true);
+    // xhttp.send();
+    // var xhttp = new XMLHttpRequest();
+    // xhttp.open("GET", "img/fab.gif", true);
+    // xhttp.send();
+    var testfiles = [
+      // "testfiles/1mb",
+      // "testfiles/5mb",
+      // "testfiles/10mb",
+      // "testfiles/20mb",
+      // "testfiles/30mb",
+      // "testfiles/40mb",
+      // "testfiles/50mb",
+      "testfiles/60mb"]
+    // var request_testfiles = function() {
+    //   for(var i=0; i<testfiles.length; i++) {
+    //
+    //   }
+    // }
+    var request_testfile = function(path, index) {
+      var xhttp = new XMLHttpRequest();
+      xhttp.open("GET", path, true);
+      xhttp.onreadystatechange = function() {
+        if (xhttp.readyState === 4) {
+          if(index < testfiles.length-1) {
+            request_testfile(testfiles[index+1], index+1);
+          }
+          // if (times >= 0) {
+          //   request_testfile(path, times-1)
+          // }
+        }
+      }
+      xhttp.send();
+    }
+    request_testfile(testfiles[0], 0)
+
   };
 
   document.getElementById('btnDataSmall').onclick = function() {
