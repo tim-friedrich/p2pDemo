@@ -10,14 +10,15 @@ function Sleep(milliseconds) {
   return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
 
-async function visitPage(url) {
-
+async function visitPage(page, path) {
+  await page.goto(rootUrl+path, {waitUntil: 'networkidle2'});
 }
 
 async function run() {
   var page = await launchPeer();
   await signIn(page);
   await page.screenshot({path: '2.png', fullPage: true});
+  await visitPage(page, '/dashboard/')
   var stats = await getStatistic();
   console.log("stats: ")
   console.log(stats)
@@ -27,18 +28,16 @@ async function run() {
 async function getStatistic() {
   return new Promise(async function(resolve, reject){
     pages[0].on('console', msg => console.log(msg.text()));
-    await Sleep(10000);
-    await pages[0].evaluate(() => {
-      idbKeyval.get('swLogs').then(function(data) {
-        console.log(JSON.stringify(data));
-        resolve(data);
-      })
+    await Sleep(5000);
+    var result = await pages[0].evaluate(async () => {
+      return idbKeyval.get('swLogs');
     });
+    resolve(result);
   })
 }
 
 async function teardown() {
-  await Sleep(20000)
+  // await Sleep(20000)
   for(var i = 0; i<browsers.length; i++) {
     await browsers[i].close();
   }
