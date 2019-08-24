@@ -3,7 +3,7 @@ const rootUrl = 'https://staging.slidesync.com/b8vrGYJBer'
 
 var browsers = [];
 var pages = [];
-var numberOfPeers = 10;
+var numberOfPeers = 1;
 
 function Sleep(milliseconds) {
   return new Promise(resolve => setTimeout(resolve, milliseconds));
@@ -36,7 +36,7 @@ async function teardown() {
 
 function launchPeer(){
   return new Promise(async function(resolve, reject){
-    const browser = await puppeteer.launch({headless: true, executablePath: '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'});
+    const browser = await puppeteer.launch({headless: true, executablePath: 'google-chrome'});
     browsers.push(browser);
     var page = await browser.newPage();
     await page.goto(rootUrl, {waitUntil: 'networkidle2'});
