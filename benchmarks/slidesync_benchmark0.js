@@ -15,14 +15,14 @@ async function visitPage(page, path) {
 
 async function run() {
   console.log("Starting test run")
-  browser = await puppeteer.launch({headless: true, executablePath: 'google-chrome'});
+  browser = await puppeteer.launch({headless: false, executablePath: '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'});
 
   for (var i=0; i < numberOfPeers; i+=1) {
     console.log("launching Peer " + (i+1));
-    await launchPeer(i);
-    await Sleep(1000)
+    launchPeer(i);
+    await Sleep(500)
   }
-  // await Sleep(10000);
+  await Sleep(10000);
 
   console.log("All Peers are launched");
   await teardown();
@@ -30,9 +30,7 @@ async function run() {
 
 async function teardown() {
   await Sleep(600000)
-  for(var i = 0; i<browsers.length; i++) {
-    await browsers[i].close();
-  }
+  await browser.close();
 }
 
 function launchPeer(id){
@@ -44,8 +42,25 @@ function launchPeer(id){
     await page.goto(rootUrl, {waitUntil: 'networkidle2'});
     pages.push(page);
     try {
-      page.waitForSelector('.vjs-big-play-button', {timeout: 0, visible: true})
-        .then(function () { page.click('.vjs-big-play-button') });
+      page.on('framenavigated', function() {
+        console.log("navigated")
+      })
+      page.evaluate(function () {
+        setTimeout(function() {
+          var playButton = $('.vjs-big-play-button')
+          if(playButton.length >= 1) {
+            playButton.click();
+            $('.vjs-menu-button-levels').click()
+            $('.vjs-menu-content').children().last().click()
+          }
+        }, 1000)
+      })
+      // await Promise.all([
+      //   page.waitForSelector('.vjs-big-play-button', {timeout: 0, visible: true})
+      //     .then(function () { page.click('.vjs-big-play-button') }),
+      //   page.waitForNavigation(),
+      // ]);
+
     } catch(err) {
       console.log(err);
     }
