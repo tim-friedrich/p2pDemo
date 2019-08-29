@@ -3,7 +3,7 @@ const rootUrl = 'https://slidesync.com/oKkY3gwBwQ'
 
 // var browsers = [];
 var pages = [];
-var numberOfPeers = 3;
+var numberOfPeers = 50;
 var browser;
 function Sleep(milliseconds) {
   return new Promise(resolve => setTimeout(resolve, milliseconds));
