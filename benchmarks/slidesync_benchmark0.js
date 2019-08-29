@@ -15,7 +15,7 @@ async function visitPage(page, path) {
 
 async function run() {
   console.log("Starting test run")
-  browser = await puppeteer.launch({headless: false, executablePath: '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'});
+  browser = await puppeteer.launch({headless: true, executablePath: 'google-chrome'});
 
   for (var i=0; i < numberOfPeers; i+=1) {
     console.log("launching Peer " + (i+1));
@@ -53,7 +53,7 @@ function launchPeer(id){
             $('.vjs-menu-button-levels').click()
             $('.vjs-menu-content').children().last().click()
           }
-        }, 1000)
+        }, 100)
       })
       // await Promise.all([
       //   page.waitForSelector('.vjs-big-play-button', {timeout: 0, visible: true})
