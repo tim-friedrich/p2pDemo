@@ -1,5 +1,5 @@
 const puppeteer = require('puppeteer');
-const rootUrl = 'https://staging.slidesync.com/YqBa7G8kpW'
+const rootUrl = 'https://staging.slidesync.com/EGvg1xQAXQ'
 
 // var browsers = [];
 var pages = [];
