@@ -1,10 +1,11 @@
 const puppeteer = require('puppeteer');
-const rootUrl = 'https://slidesync.com/oKkY3gwBwQ'
+const rootUrl = 'https://staging.slidesync.com/VnkRR2qkDa'
 
 // var browsers = [];
 var pages = [];
-var numberOfPeers = 50;
+var numberOfPeers = 2;
 var browser;
+var browsers = [];
 function Sleep(milliseconds) {
   return new Promise(resolve => setTimeout(resolve, milliseconds));
 }
@@ -15,12 +16,12 @@ async function visitPage(page, path) {
 
 async function run() {
   console.log("Starting test run")
-  browser = await puppeteer.launch({headless: true, executablePath: 'google-chrome'});
-
+  //browser = await puppeteer.launch({headless: false, executablePath: 'google-chrome'});
+  // browser = await puppeteer.launch({headless: false, executablePath: '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'});
   for (var i=0; i < numberOfPeers; i+=1) {
     console.log("launching Peer " + (i+1));
     launchPeer(i);
-    await Sleep(500)
+    await Sleep(1000)
   }
   await Sleep(10000);
 
@@ -29,31 +30,54 @@ async function run() {
 }
 
 async function teardown() {
-  await Sleep(600000)
-  await browser.close();
+  await Sleep(1200000)
+  for(var i = 0; i<browsers.length; i++) {
+    await browsers[i].close();
+  }
 }
 
 function launchPeer(id){
   return new Promise(async function(resolve, reject){
-    // browsers.push(browser);
     try {
-    const context = await browser.createIncognitoBrowserContext();
-    var page = await context.newPage({ context: ''+id });
+      // const browser = await puppeteer.launch({headless: true, executablePath: 'google-chrome'});
+    // const context = await browser.createIncognitoBrowserContext();
+    // var _browser = await puppeteer.launch({headless: false, executablePath: '/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'});
+    var _browser = await puppeteer.launch({headless: false, executablePath: 'google-chrome'});
+    browsers.push(_browser);
+
+    // var page = await context.newPage()
+    var page = (await _browser.pages())[0];
     await page.goto(rootUrl, {waitUntil: 'networkidle2'});
     pages.push(page);
     try {
+      // await Sleep(5000);
       page.on('framenavigated', function() {
         console.log("navigated")
       })
       page.evaluate(function () {
-        setTimeout(function() {
-          var playButton = $('.vjs-big-play-button')
-          if(playButton.length >= 1) {
-            playButton.click();
-            $('.vjs-menu-button-levels').click()
-            $('.vjs-menu-content').children().last().click()
-          }
-        }, 100)
+
+        var pressButtons = function () {
+          console.log("init pressButtons")
+          setTimeout(function() {
+
+            var playButton = $('.vjs-play-control');
+            var is_playing = $(".vjs-play-control.vjs-control.vjs-playing").length >=1
+            console.log("try playButton")
+            if(!is_playing) {
+              playButton.click();
+              console.log("clicked Play Button")
+              $('.vjs-menu-button-levels').click();
+
+            }
+            var resSelect = $('.vjs-menu-content').children().last();
+            if(resSelect.length >= 1) {
+              console.log("Selected Resolution")
+              resSelect.click();
+            }
+            pressButtons();
+          }, 1000)
+        }
+        pressButtons();
       })
       // await Promise.all([
       //   page.waitForSelector('.vjs-big-play-button', {timeout: 0, visible: true})
