@@ -1,1 +1,1 @@
-ffmpeg -re -f lavfi -i smptebars=size=1280x720:rate=30 -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -c:v libx264 -c:a aac -pix_fmt yuv420p -f flv rtmps://ingress-stg-xc-pri-aws-eu-west-1.slidesync.com/livept/NbAPXM8Adk?t=8133e2
+ffmpeg -re -f lavfi -i smptebars=size=1280x720:rate=30 -f lavfi -i anullsrc=channel_layout=stereo:sample_rate=44100 -c:v libx264 -c:a aac -pix_fmt yuv420p -f flv rtmps://ingress-stg-xc-pri-aws-eu-west-1.slidesync.com/livept/3xBOkPxB0o?t=60499a
