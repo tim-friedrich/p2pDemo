@@ -55,7 +55,8 @@ function launchPeer(id){
         console.log("navigated")
       })
       page.evaluate(function () {
-
+        var a;
+        Turbolinks = a;
         var pressButtons = function () {
           console.log("init pressButtons")
           setTimeout(function() {
