@@ -3,7 +3,7 @@ const rootUrl = 'https://staging.slidesync.com/a7vEbJbBgP'
 
 // var browsers = [];
 var pages = [];
-var numberOfPeers = 2;
+var numberOfPeers = 30;
 var browser;
 var browsers = [];
 function Sleep(milliseconds) {
