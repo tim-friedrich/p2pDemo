@@ -1,9 +1,9 @@
 const puppeteer = require('puppeteer');
-const rootUrl = 'https://staging.slidesync.com/XoAW1dWvbZ'
+const rootUrl = 'https://staging.slidesync.com/2rAqLz0Blp'
 
 // var browsers = [];
 var pages = [];
-var numberOfPeers = 25;
+var numberOfPeers = 20;
 var browser;
 var browsers = [];
 function Sleep(milliseconds) {
