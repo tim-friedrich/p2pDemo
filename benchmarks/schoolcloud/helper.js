@@ -93,7 +93,7 @@ module.exports = {
         resolve(page);
         return page;
       } catch(e) {
-        console('Sign in failed: '+ peer.peerId)
+        console.log('Sign in failed: '+ peer.peerId)
         await signIn(peer)
         resolve(peer.page)
       }

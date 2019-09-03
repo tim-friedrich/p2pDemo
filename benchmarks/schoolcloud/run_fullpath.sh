@@ -3,7 +3,7 @@ declare -a arr=(60)
 for i in "${arr[@]}"
 do
    echo "starting to benchmark $i"
-	 for n in {1..2}; do
+	 for n in {1..1}; do
 		 echo "run $n"
 	 	 node full-path.js "$n" "$i"
 	 done
