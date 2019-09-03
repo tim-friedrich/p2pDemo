@@ -17,6 +17,7 @@ var intervalEnd = process.argv[3];
 
 async function run() {
   await rampUp();
+  console.log('All test runs completed')
   await helper.teardown(runNum, intervalEnd);
 }
 
@@ -52,7 +53,7 @@ function testClient(peerId) {
         await helper.sleep(2000)
         console.log('Navigating peer ' + peer.peerId + ' to /courses/')
         await page.click('[href="/courses/"]');
-        await helper.sleep(2000)
+        await helper.sleep(3000)
         console.log('Navigating peer ' + peer.peerId + ' to Course details')
         await page.click('a[href="/courses/5d6d25287f289200133e37d7"].sc-card-header .sc-card-title');
         await helper.sleep(2000);
