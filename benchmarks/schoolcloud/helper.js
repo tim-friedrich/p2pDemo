@@ -35,8 +35,10 @@ var saveStatistics = async function(runNum, interval) {
     result = result.concat(pageStats);
   }
   data.result = result
+
   var filepath = "./logs/fullPath"+runNum+"Interval"+interval+".json"
-  fs.writeFile(filepath, JSON.stringify(data))
+  var jsonData = JSON.stringify(data);
+  fs.writeFileSync(filepath, jsonData);
 }
 
 module.exports = {
