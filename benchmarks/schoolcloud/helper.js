@@ -21,6 +21,38 @@ var clearStatistic = async function (page) {
     return await idbKeyval.set('swLogs', '');
   });
 }
+var signIn = function (peer) {
+  return new Promise(async function(resolve, reject) {
+    try {
+      var page = peer.page;
+      console.log("signing in client: " + peer.peerId)
+      // await page.screenshot({path: '2.png', fullPage: true});
+      await page.goto(rootUrl + '/login/')
+      await page.type(".login-form [name=username]", username);
+      await page.type(".login-form [name=password]", password);
+      //await page.screenshot({path: '2.png', fullPage: true});
+      await page.click('.login-form [type="submit"]');
+      await page.waitForNavigation();
+      await _sleep(10000);
+      await page.goto(rootUrl + '/dashboard/')
+      //await clearStatistic(page)
+      var statistic = new Statistic(peer)
+      peer.statistic = statistic;
+      await statistic.start();
+      statsClients.push(statistic);
+      await _sleep(1000);
+      await page.reload(rootUrl);
+      statistic.measureNavigation();
+
+      resolve(page);
+      return page;
+    } catch(e) {
+      console.log('Sign in failed: '+ peer.peerId)
+      await signIn(peer)
+      resolve(peer.page)
+    }
+  })
+}
 
 var saveStatistics = async function(runNum, interval) {
   console.log("Gathering Sw statistics")
@@ -67,39 +99,7 @@ module.exports = {
   randomNumberInInterval(start, stop) {
     return Math.floor(Math.random() * stop) + start
   },
-  signIn: function (peer) {
-    return new Promise(async function(resolve, reject) {
-      try {
-        var page = peer.page;
-        console.log("signing in client: " + peer.peerId)
-        // await page.screenshot({path: '2.png', fullPage: true});
-        await page.goto(rootUrl + '/login/')
-        await page.type(".login-form [name=username]", username);
-        await page.type(".login-form [name=password]", password);
-        //await page.screenshot({path: '2.png', fullPage: true});
-        await page.click('.login-form [type="submit"]');
-        await page.waitForNavigation();
-        await _sleep(10000);
-        await page.goto(rootUrl + '/dashboard/')
-        //await clearStatistic(page)
-        var statistic = new Statistic(peer)
-        peer.statistic = statistic;
-        await statistic.start();
-        statsClients.push(statistic);
-        await _sleep(1000);
-        await page.reload(rootUrl);
-        statistic.measureNavigation();
-
-        resolve(page);
-        return page;
-      } catch(e) {
-        console.log('Sign in failed: '+ peer.peerId)
-        await signIn(peer)
-        resolve(peer.page)
-      }
-
-    })
-  },
+  signIn: signIn,
   teardown: async function (runNum, interval) {
     await _sleep(20000)
 
