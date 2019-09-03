@@ -40,6 +40,14 @@ const extractDataFromTracing = (path, name) =>
       const resourceTracingSendRequest = resourceTracings.find(
         x => x.name === 'ResourceSendRequest'
       );
+      if(typeof resourceTracingSendRequest === 'undefined') {
+        resolve({
+          start: -1,
+          end: -1,
+        });
+        console.log("resourceTracingSendRequest not found: " + path);
+        return;
+      }
       const resourceId = resourceTracingSendRequest.args.data.requestId;
       const resourceTracingEnd = tracing.traceEvents.filter(
         x =>
