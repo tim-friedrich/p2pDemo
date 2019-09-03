@@ -83,8 +83,9 @@ module.exports = function(peer){
   this.peerStats = async function () {
     var result = {}
     await this.gatherSwPageStatistics();
-    result.peerId = this.peer.peerId
-    result.clientData = this.peer.clientData
+    result.peerId = this.peer.peerId;
+    result.timeout = this.peer.timeout;
+    result.clientData = this.peer.clientData;
     //result.requests = this.peer.requests;
     result.swStats = this.peer.swStats;
     result.requestTimings = await this.requestTimings();
