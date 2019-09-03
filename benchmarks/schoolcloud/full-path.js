@@ -36,9 +36,7 @@ function rampUp () {
 }
 function testClient(peerId) {
   return new Promise(async function (resolve, reject){
-    var timeout = helper.randomNumberInInterval(1000, intervalEnd*1000);
-
-
+    var timeout = helper.randomNumberInInterval(0, intervalEnd*1000);
     console.log(timeout);
 
     setTimeout(async function(){
@@ -50,13 +48,13 @@ function testClient(peerId) {
         var peer = await helper.launchPeer(_peer);
         var page = peer.page
         await helper.signIn(peer);
-        await helper.sleep(10000)
+        await helper.sleep(8000)
         console.log('Navigating peer ' + peer.peerId + ' to /courses/')
         await page.click('[href="/courses/"]');
-        await helper.sleep(10000)
+        await helper.sleep(8000)
         console.log('Navigating peer ' + peer.peerId + ' to Course details')
         await page.click('a[href="/courses/5d6d25287f289200133e37d7"].sc-card-header .sc-card-title');
-        await helper.sleep(10000);
+        await helper.sleep(8000);
         console.log('Navigating peer ' + peer.peerId + ' to Course Topic')
         await page.click('.card.card-topic');
         peers.push(peer)
