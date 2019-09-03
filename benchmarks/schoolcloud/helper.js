@@ -1,4 +1,4 @@
-var rootUrl = 'http://localhost:3100';
+var rootUrl = 'https://hackathon.schul-cloud.org';
 const puppeteer = require('puppeteer');
 const Statistic = require('./statistics.js')
 var fs = require("fs");
@@ -77,6 +77,7 @@ module.exports = {
       await page.click('.login-form [type="submit"]');
       await page.waitForNavigation();
       await _sleep(10000);
+      await page.goto(rootUrl + '/dashboard/')
       //await clearStatistic(page)
       var statistic = new Statistic(peer)
       peer.statistic = statistic;

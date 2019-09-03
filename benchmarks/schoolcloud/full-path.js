@@ -39,26 +39,32 @@ function testClient(peerId) {
 
 
     console.log(timeout);
+
     setTimeout(async function(){
-      var _peer = {
-        peerId: peerId,
-        timeout: timeout
+      try {
+        var _peer = {
+          peerId: peerId,
+          timeout: timeout
+        }
+        var peer = await helper.launchPeer(_peer);
+        var page = peer.page
+        await helper.signIn(peer);
+        await helper.sleep(2000)
+        console.log('Navigating peer ' + peer.peerId + ' to /courses/')
+        await page.click('[href="/courses/"]');
+        await helper.sleep(2000)
+        console.log('Navigating peer ' + peer.peerId + ' to Course details')
+        await page.click('a[href="/courses/5d6d25287f289200133e37d7"].sc-card-header .sc-card-title');
+        await helper.sleep(2000);
+        console.log('Navigating peer ' + peer.peerId + ' to Course Topic')
+        await page.click('.card.card-topic');
+        peers.push(peer)
+        resolve();
+      } catch (e) {
+        console.log(e);
       }
-      var peer = await helper.launchPeer(_peer);
-      var page = peer.page
-      await helper.signIn(peer);
-      await helper.sleep(2000)
-      console.log('Navigating peer ' + peer.peerId + ' to /courses/')
-      await page.click('[href="/courses/"]');
-      await helper.sleep(2000)
-      console.log('Navigating peer ' + peer.peerId + ' to Course details')
-      await page.click('a[href="/courses/5d5c041d815e2e012ec7078f"].sc-card-header .sc-card-title');
-      await helper.sleep(2000);
-      console.log('Navigating peer ' + peer.peerId + ' to Course Topic')
-      await page.click('.card.card-topic');
-      peers.push(peer)
-      resolve();
     }, timeout);
+
   })
 }
 

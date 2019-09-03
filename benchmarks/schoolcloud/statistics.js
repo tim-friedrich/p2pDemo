@@ -131,7 +131,6 @@ module.exports = function(peer){
       return await idbKeyval.get('navigations');
     });
     // console.log(loadingTimes)
-    console.log(loadingTimes)
     this.peer.loadingTimes = loadingTimes;
     this.peer.swStats = pageStats;
 
