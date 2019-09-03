@@ -35,7 +35,7 @@ var signIn = function (peer) {
       await page.waitForNavigation();
       await _sleep(10000);
       await page.goto(rootUrl + '/dashboard/')
-      //await clearStatistic(page)
+      await clearStatistic(page)
       var statistic = new Statistic(peer)
       peer.statistic = statistic;
       await statistic.start();
@@ -63,6 +63,7 @@ var saveStatistics = async function(runNum, interval) {
   var result = [];
   for(var i = 0; i<peers.length; i+=1) {
     await statsClients[i].stop();
+    await sleep(5000)
     var pageStats = await peers[i].statistic.peerStats();
     result = result.concat(pageStats);
   }

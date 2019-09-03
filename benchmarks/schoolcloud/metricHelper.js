@@ -20,6 +20,14 @@ const extractDataFromPerformanceMetrics = (metrics, ...dataNames) => {
 const extractDataFromTracing = (path, name) =>
   new Promise(resolve => {
     fs.readFile(path, (err, data) => {
+      if(typeof data === 'undefined') {
+        resolve({
+          start: -1,
+          end: -1,
+        });
+        console.log("trace file not found: " + path);
+        return;
+      }
       const tracing = JSON.parse(data);
 
       const resourceTracings = tracing.traceEvents.filter(
