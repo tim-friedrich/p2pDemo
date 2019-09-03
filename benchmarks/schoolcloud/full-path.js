@@ -63,6 +63,7 @@ function testClient(peerId) {
         resolve();
       } catch (e) {
         console.log(e);
+        resolve();
       }
     }, timeout);
 
