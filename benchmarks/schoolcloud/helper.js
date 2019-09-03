@@ -67,28 +67,35 @@ module.exports = {
   },
   signIn: function (peer) {
     return new Promise(async function(resolve, reject) {
-      var page = peer.page;
-      console.log("signing in client: " + peer.peerId)
-      // await page.screenshot({path: '2.png', fullPage: true});
-      await page.goto(rootUrl + '/login/')
-      await page.type(".login-form [name=username]", username);
-      await page.type(".login-form [name=password]", password);
-      //await page.screenshot({path: '2.png', fullPage: true});
-      await page.click('.login-form [type="submit"]');
-      await page.waitForNavigation();
-      await _sleep(10000);
-      await page.goto(rootUrl + '/dashboard/')
-      //await clearStatistic(page)
-      var statistic = new Statistic(peer)
-      peer.statistic = statistic;
-      await statistic.start();
-      statsClients.push(statistic);
+      try {
+        var page = peer.page;
+        console.log("signing in client: " + peer.peerId)
+        // await page.screenshot({path: '2.png', fullPage: true});
+        await page.goto(rootUrl + '/login/')
+        await page.type(".login-form [name=username]", username);
+        await page.type(".login-form [name=password]", password);
+        //await page.screenshot({path: '2.png', fullPage: true});
+        await page.click('.login-form [type="submit"]');
+        await page.waitForNavigation();
+        await _sleep(10000);
+        await page.goto(rootUrl + '/dashboard/')
+        //await clearStatistic(page)
+        var statistic = new Statistic(peer)
+        peer.statistic = statistic;
+        await statistic.start();
+        statsClients.push(statistic);
+        await _sleep(1000);
+        await page.reload(rootUrl);
+        statistic.measureNavigation();
 
-      await page.reload(rootUrl);
-      statistic.measureNavigation();
+        resolve(page);
+        return page;
+      } catch(e) {
+        console('Sign in failed: '+ peer.peerId)
+        await signIn(peer)
+        resolve(peer.page)
+      }
 
-      resolve(page);
-      return page;
     })
   },
   teardown: async function (runNum, interval) {
