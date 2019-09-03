@@ -61,9 +61,14 @@ var saveStatistics = async function(runNum, interval) {
     interval: interval
   }
   var result = [];
+  var promises = []
   for(var i = 0; i<peers.length; i+=1) {
-    await statsClients[i].stop();
-    await sleep(5000)
+    promises.push(statsClients[i].stop());
+  }
+  await Promise.all(promises);
+  await _sleep(30000)
+  console.log("starting to combine the statistic")
+  for(var i = 0; i<peers.length; i+=1) {
     var pageStats = await peers[i].statistic.peerStats();
     result = result.concat(pageStats);
   }

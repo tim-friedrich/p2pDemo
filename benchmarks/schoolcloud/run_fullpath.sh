@@ -1,5 +1,5 @@
 # declare -a arr=(10 30 60 90 120)
-declare -a arr=(60)
+declare -a arr=(10)
 
 for i in "${arr[@]}"
 do
