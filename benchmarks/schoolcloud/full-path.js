@@ -26,7 +26,6 @@ function rampUp () {
     var clientPromises = []
     console.log("ramping up..")
     for(var i = 0; i < numPeers; i+=1) {
-
       var _client = testClient(i);
       clientPromises.push(_client)
     }

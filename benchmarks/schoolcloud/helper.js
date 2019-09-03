@@ -55,7 +55,7 @@ var signIn = function (peer) {
 }
 
 var saveStatistics = async function(runNum, interval) {
-  console.log("Gathering Sw statistics")
+  console.log("Gathering statistics")
   data = {
     runNum: runNum,
     interval: interval
@@ -69,6 +69,7 @@ var saveStatistics = async function(runNum, interval) {
   await _sleep(30000)
   console.log("starting to combine the statistic")
   for(var i = 0; i<peers.length; i+=1) {
+    console.log("combining statistic for peer: " + i)
     var pageStats = await peers[i].statistic.peerStats();
     result = result.concat(pageStats);
   }

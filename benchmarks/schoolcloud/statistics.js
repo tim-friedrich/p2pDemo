@@ -94,14 +94,7 @@ module.exports = function(peer){
   }
   this.requestTimings = async function () {
     var result = []
-    for(var i=0; i < this.peer.requests.length; i+=1) {
-      var url = this.peer.requests[i];
-      const tracing = await metrics.extractDataFromTracing(
-        this.tracePath,
-        url
-      );
-      result.push({url: url, timing: tracing.end-tracing.start});
-    }
+    result = metrics.getUrlTimings(this.tracePath, this.peer.requests)
     return result;
   }
   this.stop = async function () {
@@ -111,45 +104,14 @@ module.exports = function(peer){
     console.log("Stopped statistic gathering for: " + this.peerId)
   }
   this.gatherSwPageStatistics = async function () {
-    // TODO: multi client support
-    // var contents = "[]"
-    // var filepath = "./logs/SwLogs.json"
-    //  // fs.readFileSync(filepath);
-    // contents = fs.readFile(filepath, function (err, data) {
-    //     if (err) return console.error(err);
-    //     console.log(data.toString());
-    // });
-    // if(typeof contents === 'undefined') contents = "[]"
-    // var swStats = JSON.parse(contents);
-    // console.log(swStats)
-    // var result =
-    // pages[0].on('console', msg => console.log(msg.text()));
-    // await helper.sleep(10000);
     var pageStats = await this.page.evaluate(async () => {
       return await idbKeyval.get('swLogs');
     });
     var loadingTimes = await this.page.evaluate(async () => {
       return await idbKeyval.get('navigations');
     });
-    // console.log(loadingTimes)
     this.peer.loadingTimes = loadingTimes;
     this.peer.swStats = pageStats;
-
-    // for(var i = 0; i < pages.length; i+=1) {
-    //   var pageStats = await pages[i].evaluate(async () => {
-    //     return await idbKeyval.get('swLogs');
-    //   });
-      // console.log(pageStats)
-      // if(typeof pageStats === 'undefined') {
-      //   await pages[i].screenshot({path: '2.png', fullPage: true});
-      //   await _sleep(1200000);
-      // }
-      // result = result.concat(pageStats);
-    // }
-    // swStats = swStats.concat(pageStats)
-    // fs.writeFile(filepath, JSON.stringify(swStats))
-    // fs.close()
-    // console.log(pageStats)
     return pageStats;
   }
 }
