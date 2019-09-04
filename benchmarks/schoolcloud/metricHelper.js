@@ -43,7 +43,7 @@ const urlTiming = function (tracing, name) {
   const resourceTracingStartTime = resourceTracingSendRequest.ts / 1000;
   const resourceTracingEndTime =
     resourceTracingEnd.find(x => x.name === 'ResourceFinish').ts / 1000;
-  return { url: name, timing: resourceTracingEndTime-resourceTracingStartTime }
+  return { url: name, startTime: resourceTracingStartTime, endTime: resourceTracingEndTime, timing: resourceTracingEndTime-resourceTracingStartTime }
 }
 
 const getUrlTimings = (path, urls) =>

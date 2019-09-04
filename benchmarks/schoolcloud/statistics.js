@@ -86,9 +86,11 @@ module.exports = function(peer){
     result.peerId = this.peer.peerId;
     result.timeout = this.peer.timeout;
     result.clientData = this.peer.clientData;
+    result.loadingTimes = this.peer.loadingTimes
     //result.requests = this.peer.requests;
     result.swStats = this.peer.swStats;
     result.requestTimings = await this.requestTimings();
+    result.navigationsStart = peer.navigationsStart;
 
     return result
   }

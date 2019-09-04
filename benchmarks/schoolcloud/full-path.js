@@ -44,18 +44,35 @@ function testClient(peerId) {
           peerId: peerId,
           timeout: timeout
         }
+
         var peer = await helper.launchPeer(_peer);
         var page = peer.page
+        var currentTime = async function(page) {
+          return await page.evaluate(function() {
+            return Date.now();
+          })
+        }
+        var time = await currentTime(page);
+        var navigations = {
+          'signIn': time
+        }
         await helper.signIn(peer);
         await helper.sleep(8000)
+        time = await currentTime(page);
+        navigations['/courses/'] = time;
         console.log('Navigating peer ' + peer.peerId + ' to /courses/')
         await page.click('[href="/courses/"]');
         await helper.sleep(8000)
+        time = await currentTime(page);
+        navigations['/courses/:id'] = time
         console.log('Navigating peer ' + peer.peerId + ' to Course details')
         await page.click('a[href="/courses/5d6d25287f289200133e37d7"].sc-card-header .sc-card-title');
         await helper.sleep(8000);
+        time = await currentTime(page);
+        navigations['/courses/topic'] = time
         console.log('Navigating peer ' + peer.peerId + ' to Course Topic')
         await page.click('.card.card-topic');
+        peer.navigationsStart = navigations
         peers.push(peer)
         resolve();
       } catch (e) {
