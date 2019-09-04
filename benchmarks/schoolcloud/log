@@ -1,0 +1,2679 @@
+starting to benchmark 1
+run 1
+range 1
+ramping up..
+2
+178
+476
+254
+339
+337
+196
+239
+339
+425
+196
+693
+877
+596
+169
+158
+458
+75
+744
+903
+29
+208
+250
+371
+542
+636
+313
+648
+925
+274
+launching Peer 0
+launching Peer 20
+launching Peer 17
+launching Peer 15
+launching Peer 14
+launching Peer 1
+launching Peer 6
+launching Peer 10
+launching Peer 21
+launching Peer 7
+launching Peer 22
+launching Peer 3
+launching Peer 29
+launching Peer 26
+launching Peer 5
+launching Peer 4
+launching Peer 8
+launching Peer 23
+launching Peer 9
+launching Peer 16
+launching Peer 2
+launching Peer 24
+launching Peer 13
+launching Peer 25
+launching Peer 27
+launching Peer 11
+launching Peer 18
+launching Peer 12
+launching Peer 19
+launching Peer 28
+signing in client: 24
+signing in client: 1
+signing in client: 9
+signing in client: 13
+signing in client: 7
+signing in client: 23
+signing in client: 21
+signing in client: 3
+signing in client: 25
+signing in client: 28
+signing in client: 14
+signing in client: 17
+signing in client: 19
+signing in client: 8
+signing in client: 4
+signing in client: 12
+signing in client: 5
+signing in client: 18
+signing in client: 2
+signing in client: 6
+signing in client: 20
+signing in client: 29
+signing in client: 15
+signing in client: 0
+signing in client: 16
+signing in client: 26
+signing in client: 27
+signing in client: 22
+signing in client: 11
+signing in client: 10
+Started statistic gathering for: 5
+Started statistic gathering for: 12
+Started statistic gathering for: 2
+Started statistic gathering for: 19
+Started statistic gathering for: 22
+Started statistic gathering for: 20
+Started statistic gathering for: 29
+Started statistic gathering for: 24
+Started statistic gathering for: 1
+Started statistic gathering for: 0
+Started statistic gathering for: 8
+Started statistic gathering for: 11
+Started statistic gathering for: 23
+Started statistic gathering for: 25
+Started statistic gathering for: 18
+Started statistic gathering for: 27
+Started statistic gathering for: 15
+Started statistic gathering for: 13
+Started statistic gathering for: 26
+Started statistic gathering for: 16
+Started statistic gathering for: 10
+Started statistic gathering for: 17
+Started statistic gathering for: 3
+Started statistic gathering for: 14
+Started statistic gathering for: 6
+Started statistic gathering for: 9
+Started statistic gathering for: 7
+Started statistic gathering for: 28
+Started statistic gathering for: 4
+Started statistic gathering for: 21
+Navigating peer 12 to /courses/
+Navigating peer 5 to /courses/
+Navigating peer 29 to /courses/
+Navigating peer 19 to /courses/
+Navigating peer 20 to /courses/
+Navigating peer 2 to /courses/
+Navigating peer 22 to /courses/
+Navigating peer 24 to /courses/
+Navigating peer 1 to /courses/
+Navigating peer 0 to /courses/
+Navigating peer 8 to /courses/
+Navigating peer 11 to /courses/
+Navigating peer 27 to /courses/
+Navigating peer 23 to /courses/
+Navigating peer 18 to /courses/
+Navigating peer 25 to /courses/
+Navigating peer 17 to /courses/
+Navigating peer 26 to /courses/
+Navigating peer 10 to /courses/
+Navigating peer 13 to /courses/
+Navigating peer 16 to /courses/
+Navigating peer 6 to /courses/
+Navigating peer 7 to /courses/
+Navigating peer 21 to /courses/
+Navigating peer 15 to /courses/
+Navigating peer 14 to /courses/
+Navigating peer 3 to /courses/
+Navigating peer 12 to Course details
+Navigating peer 5 to Course details
+Navigating peer 4 to /courses/
+Navigating peer 9 to /courses/
+Navigating peer 28 to /courses/
+Navigating peer 29 to Course details
+Navigating peer 19 to Course details
+Navigating peer 2 to Course details
+Navigating peer 20 to Course details
+Navigating peer 22 to Course details
+Navigating peer 24 to Course details
+Navigating peer 1 to Course details
+Navigating peer 0 to Course details
+Navigating peer 8 to Course details
+Navigating peer 11 to Course details
+Navigating peer 27 to Course details
+Navigating peer 23 to Course details
+Navigating peer 18 to Course details
+Navigating peer 25 to Course details
+Navigating peer 17 to Course details
+Navigating peer 26 to Course details
+Navigating peer 10 to Course details
+Navigating peer 13 to Course details
+Navigating peer 16 to Course details
+Navigating peer 6 to Course details
+Navigating peer 7 to Course details
+Navigating peer 21 to Course details
+Navigating peer 15 to Course details
+Navigating peer 14 to Course details
+Navigating peer 3 to Course details
+Navigating peer 12 to Course Topic
+Navigating peer 5 to Course Topic
+Navigating peer 4 to Course details
+Navigating peer 9 to Course details
+Navigating peer 28 to Course details
+Navigating peer 29 to Course Topic
+Navigating peer 19 to Course Topic
+Navigating peer 2 to Course Topic
+Navigating peer 20 to Course Topic
+Navigating peer 24 to Course Topic
+Navigating peer 22 to Course Topic
+Navigating peer 1 to Course Topic
+Navigating peer 0 to Course Topic
+Navigating peer 8 to Course Topic
+Navigating peer 11 to Course Topic
+Navigating peer 27 to Course Topic
+Navigating peer 23 to Course Topic
+Navigating peer 18 to Course Topic
+Navigating peer 25 to Course Topic
+Navigating peer 17 to Course Topic
+Navigating peer 26 to Course Topic
+Navigating peer 10 to Course Topic
+Navigating peer 13 to Course Topic
+Navigating peer 16 to Course Topic
+Navigating peer 6 to Course Topic
+Navigating peer 7 to Course Topic
+Navigating peer 21 to Course Topic
+Navigating peer 15 to Course Topic
+Navigating peer 14 to Course Topic
+Navigating peer 3 to Course Topic
+Navigating peer 4 to Course Topic
+Navigating peer 9 to Course Topic
+Navigating peer 28 to Course Topic
+All test runs completed
+Gathering statistics
+Stopped statistic gathering for: 4
+Stopped statistic gathering for: 26
+Stopped statistic gathering for: 21
+Stopped statistic gathering for: 9
+Stopped statistic gathering for: 16
+Stopped statistic gathering for: 13
+Stopped statistic gathering for: 7
+Stopped statistic gathering for: 15
+Stopped statistic gathering for: 3
+Stopped statistic gathering for: 6
+Stopped statistic gathering for: 17
+Stopped statistic gathering for: 14
+Stopped statistic gathering for: 25
+Stopped statistic gathering for: 28
+Stopped statistic gathering for: 23
+Stopped statistic gathering for: 10
+Stopped statistic gathering for: 27
+Stopped statistic gathering for: 18
+Stopped statistic gathering for: 11
+Stopped statistic gathering for: 0
+Stopped statistic gathering for: 5
+Stopped statistic gathering for: 20
+Stopped statistic gathering for: 8
+Stopped statistic gathering for: 24
+Stopped statistic gathering for: 1
+Stopped statistic gathering for: 22
+Stopped statistic gathering for: 12
+Stopped statistic gathering for: 2
+Stopped statistic gathering for: 29
+Stopped statistic gathering for: 19
+starting to combine the statistic
+combining statistic for peer: 0
+combining statistic for peer: 1
+combining statistic for peer: 2
+combining statistic for peer: 3
+combining statistic for peer: 4
+combining statistic for peer: 5
+combining statistic for peer: 6
+combining statistic for peer: 7
+combining statistic for peer: 8
+combining statistic for peer: 9
+combining statistic for peer: 10
+combining statistic for peer: 11
+combining statistic for peer: 12
+run 2
+range 1
+ramping up..
+63
+257
+491
+204
+969
+518
+991
+356
+526
+746
+291
+708
+850
+782
+628
+977
+836
+367
+311
+436
+930
+732
+228
+286
+987
+618
+777
+635
+971
+94
+launching Peer 0
+launching Peer 29
+launching Peer 3
+signing in client: 0
+launching Peer 22
+signing in client: 29
+launching Peer 1
+launching Peer 23
+launching Peer 10
+launching Peer 18
+signing in client: 3
+launching Peer 7
+launching Peer 17
+signing in client: 22
+signing in client: 1
+launching Peer 19
+signing in client: 23
+signing in client: 10
+signing in client: 18
+launching Peer 2
+signing in client: 17
+signing in client: 7
+launching Peer 5
+launching Peer 8
+signing in client: 19
+launching Peer 25
+launching Peer 14
+launching Peer 27
+signing in client: 2
+signing in client: 8
+launching Peer 11
+signing in client: 5
+launching Peer 21
+launching Peer 9
+signing in client: 25
+launching Peer 26
+launching Peer 13
+signing in client: 14
+signing in client: 27
+launching Peer 16
+launching Peer 12
+signing in client: 11
+signing in client: 21
+signing in client: 9
+launching Peer 20
+signing in client: 13
+signing in client: 26
+launching Peer 4
+launching Peer 28
+launching Peer 15
+launching Peer 24
+launching Peer 6
+signing in client: 16
+signing in client: 12
+signing in client: 20
+signing in client: 28
+signing in client: 15
+signing in client: 6
+signing in client: 24
+signing in client: 4
+Started statistic gathering for: 29
+Started statistic gathering for: 3
+Started statistic gathering for: 23
+Started statistic gathering for: 0
+Started statistic gathering for: 7
+Started statistic gathering for: 17
+Started statistic gathering for: 20
+Started statistic gathering for: 19
+Started statistic gathering for: 22
+Started statistic gathering for: 21
+Started statistic gathering for: 1
+Started statistic gathering for: 9
+Started statistic gathering for: 13
+Started statistic gathering for: 5
+Started statistic gathering for: 4
+Started statistic gathering for: 27
+Started statistic gathering for: 10
+Started statistic gathering for: 15
+Started statistic gathering for: 28
+Started statistic gathering for: 14
+Started statistic gathering for: 6
+Started statistic gathering for: 8
+Started statistic gathering for: 12
+Started statistic gathering for: 25
+Started statistic gathering for: 2
+Started statistic gathering for: 11
+Started statistic gathering for: 16
+Started statistic gathering for: 18
+Started statistic gathering for: 26
+Started statistic gathering for: 24
+Navigating peer 29 to /courses/
+Navigating peer 0 to /courses/
+Navigating peer 3 to /courses/
+Navigating peer 20 to /courses/
+Navigating peer 23 to /courses/
+Navigating peer 7 to /courses/
+Navigating peer 17 to /courses/
+Navigating peer 19 to /courses/
+Navigating peer 26 to /courses/
+Navigating peer 13 to /courses/
+Navigating peer 27 to /courses/
+Navigating peer 25 to /courses/
+Navigating peer 15 to /courses/
+Navigating peer 18 to /courses/
+Navigating peer 10 to /courses/
+Navigating peer 14 to /courses/
+Navigating peer 6 to /courses/
+Navigating peer 5 to /courses/
+Navigating peer 21 to /courses/
+Navigating peer 28 to /courses/
+Navigating peer 16 to /courses/
+Navigating peer 12 to /courses/
+Navigating peer 8 to /courses/
+Navigating peer 1 to /courses/
+Navigating peer 9 to /courses/
+Navigating peer 4 to /courses/
+Navigating peer 11 to /courses/
+Navigating peer 2 to /courses/
+Navigating peer 24 to /courses/
+Navigating peer 22 to /courses/
+Navigating peer 7 to Course details
+Navigating peer 29 to Course details
+Navigating peer 19 to Course details
+Navigating peer 3 to Course details
+Navigating peer 17 to Course details
+Navigating peer 20 to Course details
+Navigating peer 23 to Course details
+Navigating peer 0 to Course details
+Navigating peer 26 to Course details
+Navigating peer 13 to Course details
+Navigating peer 27 to Course details
+Navigating peer 25 to Course details
+Navigating peer 15 to Course details
+Navigating peer 18 to Course details
+Navigating peer 10 to Course details
+Navigating peer 14 to Course details
+Navigating peer 6 to Course details
+Navigating peer 5 to Course details
+Navigating peer 21 to Course details
+Navigating peer 28 to Course details
+Navigating peer 16 to Course details
+Navigating peer 12 to Course details
+Navigating peer 8 to Course details
+Navigating peer 1 to Course details
+Navigating peer 9 to Course details
+Navigating peer 4 to Course details
+Navigating peer 11 to Course details
+Navigating peer 2 to Course details
+Navigating peer 24 to Course details
+Navigating peer 22 to Course details
+Navigating peer 7 to Course Topic
+Navigating peer 29 to Course Topic
+Navigating peer 17 to Course Topic
+Navigating peer 3 to Course Topic
+Navigating peer 20 to Course Topic
+Navigating peer 19 to Course Topic
+Navigating peer 0 to Course Topic
+Navigating peer 23 to Course Topic
+Navigating peer 26 to Course Topic
+Navigating peer 13 to Course Topic
+Navigating peer 27 to Course Topic
+Navigating peer 25 to Course Topic
+Navigating peer 15 to Course Topic
+Navigating peer 18 to Course Topic
+Navigating peer 10 to Course Topic
+Navigating peer 14 to Course Topic
+Navigating peer 6 to Course Topic
+Navigating peer 5 to Course Topic
+Navigating peer 21 to Course Topic
+Navigating peer 28 to Course Topic
+Navigating peer 16 to Course Topic
+Navigating peer 12 to Course Topic
+Navigating peer 8 to Course Topic
+Navigating peer 1 to Course Topic
+Navigating peer 9 to Course Topic
+Navigating peer 4 to Course Topic
+Navigating peer 11 to Course Topic
+Navigating peer 2 to Course Topic
+Navigating peer 24 to Course Topic
+Navigating peer 22 to Course Topic
+All test runs completed
+Gathering statistics
+Stopped statistic gathering for: 27
+Stopped statistic gathering for: 18
+Stopped statistic gathering for: 15
+Stopped statistic gathering for: 25
+Stopped statistic gathering for: 12
+Stopped statistic gathering for: 11
+Stopped statistic gathering for: 6
+Stopped statistic gathering for: 13
+Stopped statistic gathering for: 7
+Stopped statistic gathering for: 10
+Stopped statistic gathering for: 26
+Stopped statistic gathering for: 14
+Stopped statistic gathering for: 16
+Stopped statistic gathering for: 19
+Stopped statistic gathering for: 5
+Stopped statistic gathering for: 24
+Stopped statistic gathering for: 28
+Stopped statistic gathering for: 22
+Stopped statistic gathering for: 21
+Stopped statistic gathering for: 4
+Stopped statistic gathering for: 2
+Stopped statistic gathering for: 17
+Stopped statistic gathering for: 8
+Stopped statistic gathering for: 9
+Stopped statistic gathering for: 1
+Stopped statistic gathering for: 29
+Stopped statistic gathering for: 23
+Stopped statistic gathering for: 20
+Stopped statistic gathering for: 0
+Stopped statistic gathering for: 3
+starting to combine the statistic
+combining statistic for peer: 0
+combining statistic for peer: 1
+combining statistic for peer: 2
+combining statistic for peer: 3
+combining statistic for peer: 4
+combining statistic for peer: 5
+combining statistic for peer: 6
+combining statistic for peer: 7
+combining statistic for peer: 8
+combining statistic for peer: 9
+combining statistic for peer: 10
+combining statistic for peer: 11
+combining statistic for peer: 12
+combining statistic for peer: 13
+combining statistic for peer: 14
+combining statistic for peer: 15
+combining statistic for peer: 16
+combining statistic for peer: 17
+combining statistic for peer: 18
+combining statistic for peer: 19
+combining statistic for peer: 20
+combining statistic for peer: 21
+combining statistic for peer: 22
+combining statistic for peer: 23
+combining statistic for peer: 24
+combining statistic for peer: 25
+combining statistic for peer: 26
+combining statistic for peer: 27
+combining statistic for peer: 28
+combining statistic for peer: 29
+run 3
+range 1
+ramping up..
+922
+533
+838
+298
+157
+203
+742
+427
+705
+193
+67
+259
+589
+590
+309
+982
+813
+308
+384
+939
+940
+892
+842
+460
+194
+176
+680
+144
+50
+199
+launching Peer 28
+launching Peer 10
+launching Peer 27
+launching Peer 4
+launching Peer 25
+launching Peer 9
+launching Peer 24
+launching Peer 29
+launching Peer 5
+signing in client: 10
+signing in client: 28
+launching Peer 11
+launching Peer 3
+launching Peer 17
+launching Peer 14
+signing in client: 4
+signing in client: 27
+signing in client: 25
+signing in client: 24
+signing in client: 5
+signing in client: 29
+signing in client: 9
+launching Peer 18
+signing in client: 11
+launching Peer 7
+launching Peer 23
+signing in client: 17
+signing in client: 14
+signing in client: 3
+launching Peer 1
+signing in client: 18
+signing in client: 7
+launching Peer 12
+launching Peer 13
+signing in client: 23
+launching Peer 26
+signing in client: 1
+launching Peer 8
+launching Peer 6
+signing in client: 12
+signing in client: 13
+launching Peer 16
+signing in client: 26
+launching Peer 2
+launching Peer 22
+signing in client: 8
+signing in client: 6
+launching Peer 21
+launching Peer 0
+launching Peer 19
+launching Peer 20
+launching Peer 15
+signing in client: 16
+signing in client: 2
+signing in client: 22
+signing in client: 19
+signing in client: 20
+signing in client: 21
+signing in client: 15
+signing in client: 0
+Started statistic gathering for: 28
+Started statistic gathering for: 4
+Started statistic gathering for: 27
+Started statistic gathering for: 9
+Started statistic gathering for: 5
+Started statistic gathering for: 11
+Started statistic gathering for: 10
+Started statistic gathering for: 29
+Started statistic gathering for: 21
+Started statistic gathering for: 6
+Started statistic gathering for: 12
+Started statistic gathering for: 24
+Started statistic gathering for: 13
+Started statistic gathering for: 3
+Started statistic gathering for: 26
+Started statistic gathering for: 1
+Started statistic gathering for: 16
+Started statistic gathering for: 14
+Started statistic gathering for: 17
+Started statistic gathering for: 23
+Started statistic gathering for: 15
+Started statistic gathering for: 25
+Started statistic gathering for: 7
+Started statistic gathering for: 22
+Started statistic gathering for: 19
+Started statistic gathering for: 18
+Started statistic gathering for: 20
+Started statistic gathering for: 0
+Started statistic gathering for: 2
+Started statistic gathering for: 8
+Navigating peer 28 to /courses/
+Navigating peer 9 to /courses/
+Navigating peer 11 to /courses/
+Navigating peer 4 to /courses/
+Navigating peer 5 to /courses/
+Navigating peer 27 to /courses/
+Navigating peer 29 to /courses/
+Navigating peer 6 to /courses/
+Navigating peer 10 to /courses/
+Navigating peer 21 to /courses/
+Navigating peer 12 to /courses/
+Navigating peer 13 to /courses/
+Navigating peer 3 to /courses/
+Navigating peer 24 to /courses/
+Navigating peer 26 to /courses/
+Navigating peer 28 to Course details
+Navigating peer 1 to /courses/
+Navigating peer 16 to /courses/
+Navigating peer 25 to /courses/
+Navigating peer 19 to /courses/
+Navigating peer 15 to /courses/
+Navigating peer 7 to /courses/
+Navigating peer 20 to /courses/
+Navigating peer 23 to /courses/
+Navigating peer 22 to /courses/
+Navigating peer 0 to /courses/
+Navigating peer 14 to /courses/
+Navigating peer 8 to /courses/
+Navigating peer 18 to /courses/
+Navigating peer 2 to /courses/
+Navigating peer 17 to /courses/
+Navigating peer 9 to Course details
+Navigating peer 11 to Course details
+Navigating peer 4 to Course details
+Navigating peer 5 to Course details
+Navigating peer 27 to Course details
+Navigating peer 29 to Course details
+Navigating peer 6 to Course details
+Navigating peer 10 to Course details
+Navigating peer 21 to Course details
+Navigating peer 12 to Course details
+Navigating peer 13 to Course details
+Navigating peer 3 to Course details
+Navigating peer 24 to Course details
+Navigating peer 26 to Course details
+Navigating peer 28 to Course Topic
+Navigating peer 1 to Course details
+Navigating peer 16 to Course details
+Navigating peer 25 to Course details
+Navigating peer 19 to Course details
+Navigating peer 15 to Course details
+Navigating peer 7 to Course details
+Navigating peer 20 to Course details
+Navigating peer 23 to Course details
+Navigating peer 22 to Course details
+Navigating peer 0 to Course details
+Navigating peer 14 to Course details
+Navigating peer 8 to Course details
+Navigating peer 18 to Course details
+Navigating peer 2 to Course details
+Navigating peer 17 to Course details
+Navigating peer 9 to Course Topic
+Navigating peer 11 to Course Topic
+Navigating peer 4 to Course Topic
+Navigating peer 5 to Course Topic
+Navigating peer 27 to Course Topic
+Navigating peer 29 to Course Topic
+Navigating peer 6 to Course Topic
+Navigating peer 10 to Course Topic
+Navigating peer 21 to Course Topic
+Navigating peer 12 to Course Topic
+Navigating peer 13 to Course Topic
+Navigating peer 3 to Course Topic
+Navigating peer 24 to Course Topic
+Navigating peer 26 to Course Topic
+Navigating peer 1 to Course Topic
+Navigating peer 16 to Course Topic
+Navigating peer 25 to Course Topic
+Navigating peer 19 to Course Topic
+Navigating peer 15 to Course Topic
+Navigating peer 7 to Course Topic
+Navigating peer 20 to Course Topic
+Navigating peer 23 to Course Topic
+Navigating peer 22 to Course Topic
+Navigating peer 0 to Course Topic
+Navigating peer 14 to Course Topic
+Navigating peer 8 to Course Topic
+Navigating peer 18 to Course Topic
+Navigating peer 2 to Course Topic
+Navigating peer 17 to Course Topic
+All test runs completed
+Gathering statistics
+Stopped statistic gathering for: 0
+Stopped statistic gathering for: 16
+Stopped statistic gathering for: 15
+Stopped statistic gathering for: 19
+Stopped statistic gathering for: 23
+Stopped statistic gathering for: 2
+Stopped statistic gathering for: 14
+Stopped statistic gathering for: 25
+Stopped statistic gathering for: 22
+Stopped statistic gathering for: 26
+Stopped statistic gathering for: 17
+Stopped statistic gathering for: 20
+Stopped statistic gathering for: 8
+Stopped statistic gathering for: 18
+Stopped statistic gathering for: 1
+Stopped statistic gathering for: 13
+Stopped statistic gathering for: 7
+Stopped statistic gathering for: 11
+Stopped statistic gathering for: 3
+Stopped statistic gathering for: 28
+Stopped statistic gathering for: 10
+Stopped statistic gathering for: 12
+Stopped statistic gathering for: 9
+Stopped statistic gathering for: 27
+Stopped statistic gathering for: 21
+Stopped statistic gathering for: 6
+Stopped statistic gathering for: 24
+Stopped statistic gathering for: 29
+Stopped statistic gathering for: 5
+Stopped statistic gathering for: 4
+starting to combine the statistic
+combining statistic for peer: 0
+combining statistic for peer: 1
+combining statistic for peer: 2
+combining statistic for peer: 3
+combining statistic for peer: 4
+combining statistic for peer: 5
+combining statistic for peer: 6
+combining statistic for peer: 7
+combining statistic for peer: 8
+combining statistic for peer: 9
+combining statistic for peer: 10
+combining statistic for peer: 11
+combining statistic for peer: 12
+combining statistic for peer: 13
+combining statistic for peer: 14
+combining statistic for peer: 15
+combining statistic for peer: 16
+combining statistic for peer: 17
+combining statistic for peer: 18
+combining statistic for peer: 19
+combining statistic for peer: 20
+combining statistic for peer: 21
+combining statistic for peer: 22
+combining statistic for peer: 23
+combining statistic for peer: 24
+combining statistic for peer: 25
+combining statistic for peer: 26
+combining statistic for peer: 27
+combining statistic for peer: 28
+combining statistic for peer: 29
+starting to benchmark 5
+run 1
+range 5
+ramping up..
+3372
+4287
+4611
+2460
+1054
+4203
+2559
+3001
+1957
+3587
+1815
+3159
+3674
+2267
+4191
+3359
+310
+372
+2968
+1281
+2020
+1666
+160
+1265
+3100
+3057
+2391
+2484
+1579
+2712
+launching Peer 22
+launching Peer 16
+signing in client: 22
+launching Peer 17
+signing in client: 16
+signing in client: 17
+launching Peer 4
+signing in client: 4
+launching Peer 23
+launching Peer 19
+signing in client: 19
+signing in client: 23
+launching Peer 28
+launching Peer 21
+signing in client: 28
+signing in client: 21
+launching Peer 10
+launching Peer 8
+signing in client: 10
+launching Peer 20
+signing in client: 8
+signing in client: 20
+launching Peer 13
+signing in client: 13
+launching Peer 26
+launching Peer 3
+launching Peer 27
+signing in client: 26
+launching Peer 6
+signing in client: 3
+signing in client: 27
+signing in client: 6
+launching Peer 29
+signing in client: 29
+launching Peer 18
+launching Peer 7
+launching Peer 25
+launching Peer 24
+signing in client: 18
+signing in client: 7
+launching Peer 11
+signing in client: 25
+signing in client: 24
+signing in client: 11
+launching Peer 15
+launching Peer 0
+signing in client: 15
+signing in client: 0
+launching Peer 9
+launching Peer 12
+signing in client: 9
+signing in client: 12
+launching Peer 14
+launching Peer 5
+launching Peer 1
+signing in client: 14
+signing in client: 5
+signing in client: 1
+launching Peer 2
+signing in client: 2
+Started statistic gathering for: 22
+Started statistic gathering for: 16
+Started statistic gathering for: 17
+Started statistic gathering for: 4
+Started statistic gathering for: 19
+Started statistic gathering for: 23
+Started statistic gathering for: 26
+Started statistic gathering for: 10
+Started statistic gathering for: 8
+Navigating peer 22 to /courses/
+Navigating peer 16 to /courses/
+Navigating peer 17 to /courses/
+Started statistic gathering for: 6
+Started statistic gathering for: 20
+Started statistic gathering for: 0
+Started statistic gathering for: 21
+Started statistic gathering for: 29
+Started statistic gathering for: 15
+Started statistic gathering for: 28
+Started statistic gathering for: 13
+Started statistic gathering for: 3
+Started statistic gathering for: 27
+Started statistic gathering for: 7
+Started statistic gathering for: 9
+Started statistic gathering for: 12
+Started statistic gathering for: 11
+Started statistic gathering for: 2
+Started statistic gathering for: 24
+Started statistic gathering for: 14
+Started statistic gathering for: 25
+Started statistic gathering for: 5
+Started statistic gathering for: 1
+Started statistic gathering for: 18
+Navigating peer 22 to Course details
+Navigating peer 16 to Course details
+Navigating peer 4 to /courses/
+Navigating peer 17 to Course details
+Navigating peer 19 to /courses/
+Navigating peer 23 to /courses/
+Navigating peer 26 to /courses/
+Navigating peer 10 to /courses/
+Navigating peer 8 to /courses/
+Navigating peer 6 to /courses/
+Navigating peer 27 to /courses/
+Navigating peer 7 to /courses/
+Navigating peer 3 to /courses/
+Navigating peer 22 to Course Topic
+Navigating peer 16 to Course Topic
+Navigating peer 20 to /courses/
+Navigating peer 0 to /courses/
+Navigating peer 15 to /courses/
+Navigating peer 29 to /courses/
+Navigating peer 21 to /courses/
+Navigating peer 28 to /courses/
+Navigating peer 13 to /courses/
+Navigating peer 17 to Course Topic
+Navigating peer 4 to Course details
+Navigating peer 18 to /courses/
+Navigating peer 2 to /courses/
+Navigating peer 14 to /courses/
+Navigating peer 25 to /courses/
+Navigating peer 11 to /courses/
+Navigating peer 24 to /courses/
+Navigating peer 5 to /courses/
+Navigating peer 9 to /courses/
+Navigating peer 12 to /courses/
+Navigating peer 1 to /courses/
+Navigating peer 26 to Course details
+Navigating peer 19 to Course details
+Navigating peer 10 to Course details
+Navigating peer 23 to Course details
+Navigating peer 8 to Course details
+Navigating peer 6 to Course details
+Navigating peer 27 to Course details
+Navigating peer 7 to Course details
+Navigating peer 3 to Course details
+Navigating peer 20 to Course details
+Navigating peer 0 to Course details
+Navigating peer 15 to Course details
+Navigating peer 29 to Course details
+Navigating peer 21 to Course details
+Navigating peer 28 to Course details
+Navigating peer 13 to Course details
+Navigating peer 4 to Course Topic
+Navigating peer 18 to Course details
+Navigating peer 2 to Course details
+Navigating peer 14 to Course details
+Navigating peer 25 to Course details
+Navigating peer 11 to Course details
+Navigating peer 24 to Course details
+Navigating peer 5 to Course details
+Navigating peer 9 to Course details
+Navigating peer 12 to Course details
+Navigating peer 1 to Course details
+Navigating peer 19 to Course Topic
+Navigating peer 10 to Course Topic
+Navigating peer 23 to Course Topic
+Navigating peer 26 to Course Topic
+Navigating peer 8 to Course Topic
+Navigating peer 6 to Course Topic
+Navigating peer 27 to Course Topic
+Navigating peer 7 to Course Topic
+Navigating peer 3 to Course Topic
+Navigating peer 20 to Course Topic
+Navigating peer 0 to Course Topic
+Navigating peer 15 to Course Topic
+Navigating peer 29 to Course Topic
+Navigating peer 21 to Course Topic
+Navigating peer 28 to Course Topic
+Navigating peer 13 to Course Topic
+Navigating peer 18 to Course Topic
+Navigating peer 2 to Course Topic
+Navigating peer 14 to Course Topic
+Navigating peer 25 to Course Topic
+Navigating peer 11 to Course Topic
+Navigating peer 24 to Course Topic
+Navigating peer 5 to Course Topic
+Navigating peer 9 to Course Topic
+Navigating peer 12 to Course Topic
+Navigating peer 1 to Course Topic
+All test runs completed
+Gathering statistics
+Stopped statistic gathering for: 24
+Stopped statistic gathering for: 9
+Stopped statistic gathering for: 29
+Stopped statistic gathering for: 5
+Stopped statistic gathering for: 14
+Stopped statistic gathering for: 18
+Stopped statistic gathering for: 25
+Stopped statistic gathering for: 11
+Stopped statistic gathering for: 2
+Stopped statistic gathering for: 1
+Stopped statistic gathering for: 12
+Stopped statistic gathering for: 28
+Stopped statistic gathering for: 27
+Stopped statistic gathering for: 3
+Stopped statistic gathering for: 13
+Stopped statistic gathering for: 7
+Stopped statistic gathering for: 15
+Stopped statistic gathering for: 10
+Stopped statistic gathering for: 20
+Stopped statistic gathering for: 6
+Stopped statistic gathering for: 4
+Stopped statistic gathering for: 21
+Stopped statistic gathering for: 16
+Stopped statistic gathering for: 0
+Stopped statistic gathering for: 19
+Stopped statistic gathering for: 22
+Stopped statistic gathering for: 23
+Stopped statistic gathering for: 8
+Stopped statistic gathering for: 26
+Stopped statistic gathering for: 17
+starting to combine the statistic
+combining statistic for peer: 0
+combining statistic for peer: 1
+combining statistic for peer: 2
+combining statistic for peer: 3
+combining statistic for peer: 4
+combining statistic for peer: 5
+combining statistic for peer: 6
+combining statistic for peer: 7
+combining statistic for peer: 8
+combining statistic for peer: 9
+combining statistic for peer: 10
+combining statistic for peer: 11
+combining statistic for peer: 12
+combining statistic for peer: 13
+combining statistic for peer: 14
+combining statistic for peer: 15
+combining statistic for peer: 16
+combining statistic for peer: 17
+combining statistic for peer: 18
+combining statistic for peer: 19
+combining statistic for peer: 20
+combining statistic for peer: 21
+combining statistic for peer: 22
+combining statistic for peer: 23
+combining statistic for peer: 24
+combining statistic for peer: 25
+combining statistic for peer: 26
+combining statistic for peer: 27
+combining statistic for peer: 28
+combining statistic for peer: 29
+run 2
+range 5
+ramping up..
+2259
+4253
+3306
+4926
+3720
+1552
+4364
+2941
+4443
+991
+1830
+1953
+3744
+1384
+1092
+2555
+1576
+3278
+683
+4128
+966
+3021
+2916
+1559
+3961
+3828
+4682
+62
+3026
+4700
+launching Peer 27
+signing in client: 27
+launching Peer 18
+signing in client: 18
+launching Peer 20
+launching Peer 9
+launching Peer 14
+signing in client: 20
+signing in client: 9
+signing in client: 14
+launching Peer 13
+signing in client: 13
+launching Peer 5
+launching Peer 23
+launching Peer 16
+signing in client: 5
+signing in client: 16
+signing in client: 23
+launching Peer 10
+launching Peer 11
+signing in client: 10
+signing in client: 11
+launching Peer 0
+signing in client: 0
+launching Peer 15
+signing in client: 15
+launching Peer 22
+launching Peer 7
+launching Peer 21
+launching Peer 28
+signing in client: 22
+signing in client: 7
+signing in client: 28
+signing in client: 21
+launching Peer 17
+launching Peer 2
+signing in client: 17
+signing in client: 2
+launching Peer 4
+launching Peer 12
+launching Peer 25
+signing in client: 4
+signing in client: 12
+signing in client: 25
+launching Peer 24
+signing in client: 24
+launching Peer 19
+launching Peer 1
+signing in client: 19
+launching Peer 6
+signing in client: 1
+launching Peer 8
+signing in client: 6
+signing in client: 8
+launching Peer 26
+launching Peer 29
+signing in client: 26
+signing in client: 29
+launching Peer 3
+signing in client: 3
+Started statistic gathering for: 27
+Started statistic gathering for: 18
+Started statistic gathering for: 14
+Started statistic gathering for: 20
+Started statistic gathering for: 9
+Navigating peer 27 to /courses/
+Started statistic gathering for: 15
+Navigating peer 18 to /courses/
+Started statistic gathering for: 13
+Started statistic gathering for: 23
+Started statistic gathering for: 11
+Started statistic gathering for: 22
+Started statistic gathering for: 28
+Started statistic gathering for: 5
+Started statistic gathering for: 1
+Started statistic gathering for: 24
+Started statistic gathering for: 10
+Started statistic gathering for: 3
+Started statistic gathering for: 6
+Started statistic gathering for: 16
+Started statistic gathering for: 26
+Started statistic gathering for: 4
+Started statistic gathering for: 8
+Started statistic gathering for: 19
+Started statistic gathering for: 25
+Started statistic gathering for: 7
+Started statistic gathering for: 21
+Started statistic gathering for: 2
+Started statistic gathering for: 29
+Started statistic gathering for: 12
+Started statistic gathering for: 17
+Started statistic gathering for: 0
+Navigating peer 27 to Course details
+Navigating peer 18 to Course details
+Navigating peer 14 to /courses/
+Navigating peer 9 to /courses/
+Navigating peer 20 to /courses/
+Navigating peer 13 to /courses/
+Navigating peer 11 to /courses/
+Navigating peer 15 to /courses/
+Navigating peer 23 to /courses/
+Navigating peer 27 to Course Topic
+Navigating peer 18 to Course Topic
+Navigating peer 22 to /courses/
+Navigating peer 28 to /courses/
+Navigating peer 5 to /courses/
+Navigating peer 19 to /courses/
+Navigating peer 6 to /courses/
+Navigating peer 0 to /courses/
+Navigating peer 29 to /courses/
+Navigating peer 2 to /courses/
+Navigating peer 3 to /courses/
+Navigating peer 24 to /courses/
+Navigating peer 7 to /courses/
+Navigating peer 10 to /courses/
+Navigating peer 1 to /courses/
+Navigating peer 25 to /courses/
+Navigating peer 12 to /courses/
+Navigating peer 16 to /courses/
+Navigating peer 26 to /courses/
+Navigating peer 8 to /courses/
+Navigating peer 17 to /courses/
+Navigating peer 4 to /courses/
+Navigating peer 21 to /courses/
+Navigating peer 14 to Course details
+Navigating peer 20 to Course details
+Navigating peer 9 to Course details
+Navigating peer 13 to Course details
+Navigating peer 11 to Course details
+Navigating peer 23 to Course details
+Navigating peer 15 to Course details
+Navigating peer 22 to Course details
+Navigating peer 28 to Course details
+Navigating peer 5 to Course details
+Navigating peer 19 to Course details
+Navigating peer 6 to Course details
+Navigating peer 0 to Course details
+Navigating peer 29 to Course details
+Navigating peer 2 to Course details
+Navigating peer 3 to Course details
+Navigating peer 24 to Course details
+Navigating peer 7 to Course details
+Navigating peer 10 to Course details
+Navigating peer 1 to Course details
+Navigating peer 25 to Course details
+Navigating peer 12 to Course details
+Navigating peer 16 to Course details
+Navigating peer 26 to Course details
+Navigating peer 8 to Course details
+Navigating peer 17 to Course details
+Navigating peer 4 to Course details
+Navigating peer 21 to Course details
+Navigating peer 14 to Course Topic
+Navigating peer 9 to Course Topic
+Navigating peer 20 to Course Topic
+Navigating peer 13 to Course Topic
+Navigating peer 11 to Course Topic
+Navigating peer 23 to Course Topic
+Navigating peer 15 to Course Topic
+Navigating peer 22 to Course Topic
+Navigating peer 28 to Course Topic
+Navigating peer 5 to Course Topic
+Navigating peer 19 to Course Topic
+Navigating peer 6 to Course Topic
+Navigating peer 0 to Course Topic
+Navigating peer 29 to Course Topic
+Navigating peer 2 to Course Topic
+Navigating peer 3 to Course Topic
+Navigating peer 24 to Course Topic
+Navigating peer 7 to Course Topic
+Navigating peer 10 to Course Topic
+Navigating peer 1 to Course Topic
+Navigating peer 25 to Course Topic
+Navigating peer 12 to Course Topic
+Navigating peer 16 to Course Topic
+Navigating peer 26 to Course Topic
+Navigating peer 8 to Course Topic
+Navigating peer 17 to Course Topic
+Navigating peer 4 to Course Topic
+Navigating peer 21 to Course Topic
+All test runs completed
+Gathering statistics
+Stopped statistic gathering for: 0
+Stopped statistic gathering for: 29
+Stopped statistic gathering for: 2
+Stopped statistic gathering for: 12
+Stopped statistic gathering for: 25
+Stopped statistic gathering for: 7
+Stopped statistic gathering for: 24
+Stopped statistic gathering for: 10
+Stopped statistic gathering for: 8
+Stopped statistic gathering for: 3
+Stopped statistic gathering for: 17
+Stopped statistic gathering for: 21
+Stopped statistic gathering for: 19
+Stopped statistic gathering for: 5
+Stopped statistic gathering for: 1
+Stopped statistic gathering for: 6
+Stopped statistic gathering for: 26
+Stopped statistic gathering for: 22
+Stopped statistic gathering for: 4
+Stopped statistic gathering for: 28
+Stopped statistic gathering for: 16
+Stopped statistic gathering for: 27
+Stopped statistic gathering for: 9
+Stopped statistic gathering for: 13
+Stopped statistic gathering for: 14
+Stopped statistic gathering for: 15
+Stopped statistic gathering for: 20
+Stopped statistic gathering for: 23
+Stopped statistic gathering for: 11
+Stopped statistic gathering for: 18
+starting to combine the statistic
+combining statistic for peer: 0
+combining statistic for peer: 1
+combining statistic for peer: 2
+combining statistic for peer: 3
+combining statistic for peer: 4
+combining statistic for peer: 5
+combining statistic for peer: 6
+combining statistic for peer: 7
+combining statistic for peer: 8
+combining statistic for peer: 9
+combining statistic for peer: 10
+combining statistic for peer: 11
+combining statistic for peer: 12
+combining statistic for peer: 13
+combining statistic for peer: 14
+combining statistic for peer: 15
+combining statistic for peer: 16
+combining statistic for peer: 17
+combining statistic for peer: 18
+combining statistic for peer: 19
+combining statistic for peer: 20
+combining statistic for peer: 21
+combining statistic for peer: 22
+combining statistic for peer: 23
+combining statistic for peer: 24
+combining statistic for peer: 25
+combining statistic for peer: 26
+combining statistic for peer: 27
+combining statistic for peer: 28
+combining statistic for peer: 29
+run 3
+range 5
+ramping up..
+1776
+2314
+507
+940
+1893
+1703
+4491
+1041
+3213
+1323
+1595
+3546
+2702
+3282
+4700
+4277
+3700
+3905
+2939
+3293
+812
+2849
+984
+4683
+976
+4163
+3938
+2450
+2402
+2723
+launching Peer 2
+signing in client: 2
+launching Peer 20
+launching Peer 3
+signing in client: 20
+launching Peer 24
+launching Peer 22
+launching Peer 7
+signing in client: 3
+signing in client: 24
+signing in client: 22
+signing in client: 7
+launching Peer 9
+signing in client: 9
+launching Peer 10
+launching Peer 5
+signing in client: 10
+launching Peer 0
+signing in client: 5
+launching Peer 4
+signing in client: 0
+signing in client: 4
+launching Peer 1
+launching Peer 28
+signing in client: 1
+launching Peer 27
+signing in client: 28
+signing in client: 27
+launching Peer 12
+launching Peer 29
+signing in client: 12
+signing in client: 29
+launching Peer 21
+launching Peer 18
+signing in client: 21
+signing in client: 18
+launching Peer 8
+launching Peer 13
+launching Peer 19
+signing in client: 8
+signing in client: 13
+signing in client: 19
+launching Peer 11
+signing in client: 11
+launching Peer 16
+signing in client: 16
+launching Peer 17
+launching Peer 26
+signing in client: 17
+signing in client: 26
+launching Peer 25
+launching Peer 15
+signing in client: 25
+signing in client: 15
+launching Peer 6
+signing in client: 6
+launching Peer 23
+launching Peer 14
+signing in client: 23
+signing in client: 14
+Started statistic gathering for: 2
+Started statistic gathering for: 20
+Started statistic gathering for: 3
+Started statistic gathering for: 7
+Started statistic gathering for: 22
+Started statistic gathering for: 10
+Started statistic gathering for: 13
+Started statistic gathering for: 24
+Started statistic gathering for: 9
+Started statistic gathering for: 0
+Started statistic gathering for: 1
+Started statistic gathering for: 16
+Started statistic gathering for: 5
+Started statistic gathering for: 21
+Started statistic gathering for: 11
+Started statistic gathering for: 17
+Started statistic gathering for: 27
+Started statistic gathering for: 8
+Started statistic gathering for: 12
+Started statistic gathering for: 18
+Started statistic gathering for: 6
+Started statistic gathering for: 15
+Started statistic gathering for: 23
+Started statistic gathering for: 28
+Started statistic gathering for: 14
+Started statistic gathering for: 4
+Started statistic gathering for: 19
+Started statistic gathering for: 25
+Started statistic gathering for: 26
+Started statistic gathering for: 29
+Navigating peer 2 to /courses/
+Navigating peer 7 to /courses/
+Navigating peer 22 to /courses/
+Navigating peer 20 to /courses/
+Navigating peer 3 to /courses/
+Navigating peer 10 to /courses/
+Navigating peer 13 to /courses/
+Navigating peer 24 to /courses/
+Navigating peer 9 to /courses/
+Navigating peer 5 to /courses/
+Navigating peer 21 to /courses/
+Navigating peer 1 to /courses/
+Navigating peer 16 to /courses/
+Navigating peer 0 to /courses/
+Navigating peer 19 to /courses/
+Navigating peer 4 to /courses/
+Navigating peer 27 to /courses/
+Navigating peer 11 to /courses/
+Navigating peer 17 to /courses/
+Navigating peer 23 to /courses/
+Navigating peer 26 to /courses/
+Navigating peer 18 to /courses/
+Navigating peer 12 to /courses/
+Navigating peer 25 to /courses/
+Navigating peer 14 to /courses/
+Navigating peer 6 to /courses/
+Navigating peer 15 to /courses/
+Navigating peer 29 to /courses/
+Navigating peer 28 to /courses/
+Navigating peer 2 to Course details
+Navigating peer 8 to /courses/
+Navigating peer 20 to Course details
+Navigating peer 7 to Course details
+Navigating peer 3 to Course details
+Navigating peer 22 to Course details
+Navigating peer 10 to Course details
+Navigating peer 24 to Course details
+Navigating peer 13 to Course details
+Navigating peer 9 to Course details
+Navigating peer 5 to Course details
+Navigating peer 21 to Course details
+Navigating peer 0 to Course details
+Navigating peer 1 to Course details
+Navigating peer 16 to Course details
+Navigating peer 19 to Course details
+Navigating peer 4 to Course details
+Navigating peer 27 to Course details
+Navigating peer 11 to Course details
+Navigating peer 17 to Course details
+Navigating peer 23 to Course details
+Navigating peer 26 to Course details
+Navigating peer 18 to Course details
+Navigating peer 12 to Course details
+Navigating peer 25 to Course details
+Navigating peer 14 to Course details
+Navigating peer 6 to Course details
+Navigating peer 15 to Course details
+Navigating peer 29 to Course details
+Navigating peer 2 to Course Topic
+Navigating peer 28 to Course details
+Navigating peer 8 to Course details
+Navigating peer 20 to Course Topic
+Navigating peer 7 to Course Topic
+Navigating peer 3 to Course Topic
+Navigating peer 22 to Course Topic
+Navigating peer 10 to Course Topic
+Navigating peer 24 to Course Topic
+Navigating peer 13 to Course Topic
+Navigating peer 9 to Course Topic
+Navigating peer 5 to Course Topic
+Navigating peer 21 to Course Topic
+Navigating peer 0 to Course Topic
+Navigating peer 1 to Course Topic
+Navigating peer 16 to Course Topic
+Navigating peer 19 to Course Topic
+Navigating peer 4 to Course Topic
+Navigating peer 27 to Course Topic
+Navigating peer 11 to Course Topic
+Navigating peer 17 to Course Topic
+Navigating peer 23 to Course Topic
+Navigating peer 26 to Course Topic
+Navigating peer 18 to Course Topic
+Navigating peer 12 to Course Topic
+Navigating peer 25 to Course Topic
+Navigating peer 14 to Course Topic
+Navigating peer 6 to Course Topic
+Navigating peer 15 to Course Topic
+Navigating peer 29 to Course Topic
+Navigating peer 28 to Course Topic
+Navigating peer 8 to Course Topic
+All test runs completed
+Gathering statistics
+Stopped statistic gathering for: 25
+Stopped statistic gathering for: 4
+Stopped statistic gathering for: 19
+Stopped statistic gathering for: 17
+Stopped statistic gathering for: 26
+Stopped statistic gathering for: 0
+Stopped statistic gathering for: 1
+Stopped statistic gathering for: 21
+Stopped statistic gathering for: 23
+Stopped statistic gathering for: 5
+Stopped statistic gathering for: 14
+Stopped statistic gathering for: 6
+Stopped statistic gathering for: 15
+Stopped statistic gathering for: 27
+Stopped statistic gathering for: 11
+Stopped statistic gathering for: 18
+Stopped statistic gathering for: 20
+Stopped statistic gathering for: 16
+Stopped statistic gathering for: 9
+Stopped statistic gathering for: 29
+Stopped statistic gathering for: 8
+Stopped statistic gathering for: 13
+Stopped statistic gathering for: 12
+Stopped statistic gathering for: 2
+Stopped statistic gathering for: 3
+Stopped statistic gathering for: 28
+Stopped statistic gathering for: 22
+Stopped statistic gathering for: 7
+Stopped statistic gathering for: 24
+Stopped statistic gathering for: 10
+starting to combine the statistic
+combining statistic for peer: 0
+combining statistic for peer: 1
+combining statistic for peer: 2
+combining statistic for peer: 3
+combining statistic for peer: 4
+combining statistic for peer: 5
+combining statistic for peer: 6
+combining statistic for peer: 7
+combining statistic for peer: 8
+combining statistic for peer: 9
+combining statistic for peer: 10
+combining statistic for peer: 11
+combining statistic for peer: 12
+combining statistic for peer: 13
+combining statistic for peer: 14
+combining statistic for peer: 15
+combining statistic for peer: 16
+combining statistic for peer: 17
+combining statistic for peer: 18
+combining statistic for peer: 19
+combining statistic for peer: 20
+combining statistic for peer: 21
+combining statistic for peer: 22
+combining statistic for peer: 23
+combining statistic for peer: 24
+combining statistic for peer: 25
+combining statistic for peer: 26
+combining statistic for peer: 27
+combining statistic for peer: 28
+combining statistic for peer: 29
+starting to benchmark 10
+run 1
+range 10
+ramping up..
+944
+252
+8693
+8466
+854
+6566
+2181
+3784
+9643
+8626
+9576
+7866
+8247
+3749
+4073
+8525
+9846
+4351
+6084
+6369
+394
+7384
+7817
+6099
+5081
+3493
+6364
+4615
+4769
+2933
+launching Peer 1
+launching Peer 20
+signing in client: 1
+signing in client: 20
+launching Peer 4
+launching Peer 0
+signing in client: 4
+signing in client: 0
+launching Peer 6
+signing in client: 6
+launching Peer 29
+signing in client: 29
+launching Peer 25
+signing in client: 25
+launching Peer 13
+launching Peer 7
+signing in client: 13
+signing in client: 7
+launching Peer 14
+signing in client: 14
+launching Peer 17
+signing in client: 17
+launching Peer 27
+signing in client: 27
+launching Peer 28
+signing in client: 28
+launching Peer 24
+signing in client: 24
+launching Peer 18
+launching Peer 23
+signing in client: 18
+signing in client: 23
+launching Peer 26
+launching Peer 19
+signing in client: 26
+signing in client: 19
+launching Peer 5
+signing in client: 5
+launching Peer 21
+signing in client: 21
+launching Peer 22
+launching Peer 11
+signing in client: 22
+signing in client: 11
+launching Peer 12
+signing in client: 12
+launching Peer 3
+launching Peer 15
+signing in client: 3
+launching Peer 9
+signing in client: 15
+launching Peer 2
+signing in client: 9
+signing in client: 2
+launching Peer 10
+launching Peer 8
+signing in client: 10
+signing in client: 8
+launching Peer 16
+signing in client: 16
+Started statistic gathering for: 4
+Started statistic gathering for: 1
+Started statistic gathering for: 0
+Started statistic gathering for: 20
+Started statistic gathering for: 6
+Started statistic gathering for: 29
+Started statistic gathering for: 25
+Started statistic gathering for: 7
+Started statistic gathering for: 14
+Started statistic gathering for: 13
+Started statistic gathering for: 17
+Started statistic gathering for: 27
+Started statistic gathering for: 24
+Started statistic gathering for: 28
+Started statistic gathering for: 23
+Started statistic gathering for: 18
+Started statistic gathering for: 5
+Navigating peer 4 to /courses/
+Navigating peer 0 to /courses/
+Navigating peer 1 to /courses/
+Started statistic gathering for: 26
+Navigating peer 6 to /courses/
+Navigating peer 20 to /courses/
+Navigating peer 29 to /courses/
+Started statistic gathering for: 11
+Started statistic gathering for: 19
+Started statistic gathering for: 12
+Started statistic gathering for: 22
+Started statistic gathering for: 21
+Navigating peer 25 to /courses/
+Started statistic gathering for: 3
+Started statistic gathering for: 9
+Started statistic gathering for: 2
+Started statistic gathering for: 15
+Started statistic gathering for: 8
+Started statistic gathering for: 10
+Started statistic gathering for: 16
+Navigating peer 7 to /courses/
+Navigating peer 13 to /courses/
+Navigating peer 14 to /courses/
+Navigating peer 27 to /courses/
+Navigating peer 17 to /courses/
+Navigating peer 28 to /courses/
+Navigating peer 24 to /courses/
+Navigating peer 18 to /courses/
+Navigating peer 23 to /courses/
+Navigating peer 4 to Course details
+Navigating peer 0 to Course details
+Navigating peer 6 to Course details
+Navigating peer 1 to Course details
+Navigating peer 20 to Course details
+Navigating peer 29 to Course details
+Navigating peer 25 to Course details
+Navigating peer 5 to /courses/
+Navigating peer 7 to Course details
+Navigating peer 26 to /courses/
+Navigating peer 11 to /courses/
+Navigating peer 13 to Course details
+Navigating peer 14 to Course details
+Navigating peer 27 to Course details
+Navigating peer 17 to Course details
+Navigating peer 28 to Course details
+Navigating peer 24 to Course details
+Navigating peer 22 to /courses/
+Navigating peer 12 to /courses/
+Navigating peer 21 to /courses/
+Navigating peer 19 to /courses/
+Navigating peer 18 to Course details
+Navigating peer 23 to Course details
+Navigating peer 4 to Course Topic
+Navigating peer 0 to Course Topic
+Navigating peer 6 to Course Topic
+Navigating peer 1 to Course Topic
+Navigating peer 20 to Course Topic
+Navigating peer 2 to /courses/
+Navigating peer 3 to /courses/
+Navigating peer 15 to /courses/
+Navigating peer 9 to /courses/
+Navigating peer 8 to /courses/
+Navigating peer 16 to /courses/
+Navigating peer 29 to Course Topic
+Navigating peer 10 to /courses/
+Navigating peer 25 to Course Topic
+Navigating peer 5 to Course details
+Navigating peer 7 to Course Topic
+Navigating peer 26 to Course details
+Navigating peer 11 to Course details
+Navigating peer 13 to Course Topic
+Navigating peer 14 to Course Topic
+Navigating peer 27 to Course Topic
+Navigating peer 17 to Course Topic
+Navigating peer 28 to Course Topic
+Navigating peer 24 to Course Topic
+Navigating peer 22 to Course details
+Navigating peer 12 to Course details
+Navigating peer 21 to Course details
+Navigating peer 19 to Course details
+Navigating peer 18 to Course Topic
+Navigating peer 23 to Course Topic
+Navigating peer 2 to Course details
+Navigating peer 3 to Course details
+Navigating peer 15 to Course details
+Navigating peer 9 to Course details
+Navigating peer 8 to Course details
+Navigating peer 16 to Course details
+Navigating peer 10 to Course details
+Navigating peer 5 to Course Topic
+Navigating peer 26 to Course Topic
+Navigating peer 11 to Course Topic
+Navigating peer 22 to Course Topic
+Navigating peer 12 to Course Topic
+Navigating peer 21 to Course Topic
+Navigating peer 19 to Course Topic
+Navigating peer 2 to Course Topic
+Navigating peer 3 to Course Topic
+Navigating peer 15 to Course Topic
+Navigating peer 9 to Course Topic
+Navigating peer 8 to Course Topic
+Navigating peer 16 to Course Topic
+Navigating peer 10 to Course Topic
+All test runs completed
+Gathering statistics
+Stopped statistic gathering for: 10
+Stopped statistic gathering for: 8
+Stopped statistic gathering for: 15
+Stopped statistic gathering for: 2
+Stopped statistic gathering for: 16
+Stopped statistic gathering for: 22
+Stopped statistic gathering for: 9
+Stopped statistic gathering for: 21
+Stopped statistic gathering for: 12
+Stopped statistic gathering for: 19
+Stopped statistic gathering for: 11
+Stopped statistic gathering for: 26
+Stopped statistic gathering for: 6
+Stopped statistic gathering for: 13
+Stopped statistic gathering for: 18
+Stopped statistic gathering for: 24
+Stopped statistic gathering for: 28
+Stopped statistic gathering for: 3
+Stopped statistic gathering for: 23
+Stopped statistic gathering for: 5
+Stopped statistic gathering for: 1
+Stopped statistic gathering for: 27
+Stopped statistic gathering for: 20
+Stopped statistic gathering for: 0
+Stopped statistic gathering for: 25
+Stopped statistic gathering for: 4
+Stopped statistic gathering for: 17
+Stopped statistic gathering for: 14
+Stopped statistic gathering for: 29
+Stopped statistic gathering for: 7
+starting to combine the statistic
+combining statistic for peer: 0
+combining statistic for peer: 1
+combining statistic for peer: 2
+combining statistic for peer: 3
+combining statistic for peer: 4
+combining statistic for peer: 5
+combining statistic for peer: 6
+combining statistic for peer: 7
+combining statistic for peer: 8
+combining statistic for peer: 9
+combining statistic for peer: 10
+combining statistic for peer: 11
+combining statistic for peer: 12
+combining statistic for peer: 13
+combining statistic for peer: 14
+combining statistic for peer: 15
+combining statistic for peer: 16
+combining statistic for peer: 17
+combining statistic for peer: 18
+combining statistic for peer: 19
+combining statistic for peer: 20
+combining statistic for peer: 21
+combining statistic for peer: 22
+combining statistic for peer: 23
+combining statistic for peer: 24
+combining statistic for peer: 25
+combining statistic for peer: 26
+combining statistic for peer: 27
+combining statistic for peer: 28
+combining statistic for peer: 29
+run 2
+range 10
+ramping up..
+5383
+3050
+3033
+3721
+2636
+5541
+455
+7533
+9614
+6999
+876
+4103
+2382
+7747
+5156
+7202
+5512
+1844
+3462
+3884
+2288
+1088
+9565
+8825
+5297
+3388
+5298
+3012
+972
+9932
+launching Peer 6
+signing in client: 6
+launching Peer 10
+launching Peer 28
+signing in client: 10
+launching Peer 21
+signing in client: 28
+signing in client: 21
+launching Peer 17
+signing in client: 17
+launching Peer 20
+launching Peer 12
+signing in client: 20
+signing in client: 12
+launching Peer 4
+signing in client: 4
+launching Peer 27
+launching Peer 2
+launching Peer 1
+signing in client: 27
+signing in client: 2
+signing in client: 1
+launching Peer 25
+launching Peer 18
+signing in client: 25
+signing in client: 18
+launching Peer 3
+signing in client: 3
+launching Peer 19
+signing in client: 19
+launching Peer 11
+signing in client: 11
+launching Peer 14
+signing in client: 14
+launching Peer 24
+launching Peer 26
+launching Peer 0
+signing in client: 26
+signing in client: 24
+launching Peer 16
+signing in client: 0
+launching Peer 5
+signing in client: 16
+signing in client: 5
+launching Peer 9
+signing in client: 9
+launching Peer 15
+signing in client: 15
+launching Peer 7
+signing in client: 7
+launching Peer 13
+signing in client: 13
+launching Peer 23
+signing in client: 23
+launching Peer 22
+launching Peer 8
+signing in client: 22
+signing in client: 8
+launching Peer 29
+signing in client: 29
+Started statistic gathering for: 6
+Started statistic gathering for: 10
+Started statistic gathering for: 28
+Started statistic gathering for: 21
+Started statistic gathering for: 17
+Started statistic gathering for: 20
+Started statistic gathering for: 12
+Started statistic gathering for: 4
+Started statistic gathering for: 1
+Started statistic gathering for: 25
+Started statistic gathering for: 27
+Started statistic gathering for: 2
+Started statistic gathering for: 19
+Started statistic gathering for: 3
+Started statistic gathering for: 18
+Started statistic gathering for: 11
+Navigating peer 6 to /courses/
+Started statistic gathering for: 0
+Navigating peer 10 to /courses/
+Navigating peer 28 to /courses/
+Navigating peer 21 to /courses/
+Navigating peer 17 to /courses/
+Started statistic gathering for: 24
+Started statistic gathering for: 5
+Navigating peer 20 to /courses/
+Started statistic gathering for: 26
+Started statistic gathering for: 14
+Started statistic gathering for: 7
+Started statistic gathering for: 15
+Started statistic gathering for: 9
+Started statistic gathering for: 16
+Navigating peer 12 to /courses/
+Navigating peer 4 to /courses/
+Navigating peer 1 to /courses/
+Started statistic gathering for: 13
+Started statistic gathering for: 22
+Started statistic gathering for: 8
+Started statistic gathering for: 29
+Started statistic gathering for: 23
+Navigating peer 25 to /courses/
+Navigating peer 27 to /courses/
+Navigating peer 2 to /courses/
+Navigating peer 3 to /courses/
+Navigating peer 18 to /courses/
+Navigating peer 6 to Course details
+Navigating peer 19 to /courses/
+Navigating peer 28 to Course details
+Navigating peer 10 to Course details
+Navigating peer 21 to Course details
+Navigating peer 17 to Course details
+Navigating peer 11 to /courses/
+Navigating peer 20 to Course details
+Navigating peer 12 to Course details
+Navigating peer 1 to Course details
+Navigating peer 4 to Course details
+Navigating peer 25 to Course details
+Navigating peer 0 to /courses/
+Navigating peer 27 to Course details
+Navigating peer 2 to Course details
+Navigating peer 24 to /courses/
+Navigating peer 15 to /courses/
+Navigating peer 5 to /courses/
+Navigating peer 26 to /courses/
+Navigating peer 14 to /courses/
+Navigating peer 16 to /courses/
+Navigating peer 9 to /courses/
+Navigating peer 3 to Course details
+Navigating peer 6 to Course Topic
+Navigating peer 7 to /courses/
+Navigating peer 18 to Course details
+Navigating peer 19 to Course details
+Navigating peer 13 to /courses/
+Navigating peer 8 to /courses/
+Navigating peer 28 to Course Topic
+Navigating peer 10 to Course Topic
+Navigating peer 21 to Course Topic
+Navigating peer 17 to Course Topic
+Navigating peer 29 to /courses/
+Navigating peer 23 to /courses/
+Navigating peer 11 to Course details
+Navigating peer 22 to /courses/
+Navigating peer 20 to Course Topic
+Navigating peer 12 to Course Topic
+Navigating peer 1 to Course Topic
+Navigating peer 4 to Course Topic
+Navigating peer 25 to Course Topic
+Navigating peer 0 to Course details
+Navigating peer 27 to Course Topic
+Navigating peer 2 to Course Topic
+Navigating peer 24 to Course details
+Navigating peer 15 to Course details
+Navigating peer 5 to Course details
+Navigating peer 26 to Course details
+Navigating peer 14 to Course details
+Navigating peer 16 to Course details
+Navigating peer 9 to Course details
+Navigating peer 3 to Course Topic
+Navigating peer 7 to Course details
+Navigating peer 18 to Course Topic
+Navigating peer 19 to Course Topic
+Navigating peer 13 to Course details
+Navigating peer 8 to Course details
+Navigating peer 29 to Course details
+Navigating peer 11 to Course Topic
+Navigating peer 23 to Course details
+Navigating peer 22 to Course details
+Navigating peer 0 to Course Topic
+Navigating peer 24 to Course Topic
+Navigating peer 15 to Course Topic
+Navigating peer 5 to Course Topic
+Navigating peer 26 to Course Topic
+Navigating peer 14 to Course Topic
+Navigating peer 16 to Course Topic
+Navigating peer 9 to Course Topic
+Navigating peer 7 to Course Topic
+Navigating peer 13 to Course Topic
+Navigating peer 8 to Course Topic
+Navigating peer 29 to Course Topic
+Navigating peer 23 to Course Topic
+Navigating peer 22 to Course Topic
+All test runs completed
+Gathering statistics
+Stopped statistic gathering for: 5
+Stopped statistic gathering for: 13
+Stopped statistic gathering for: 16
+Stopped statistic gathering for: 7
+Stopped statistic gathering for: 9
+Stopped statistic gathering for: 15
+Stopped statistic gathering for: 8
+Stopped statistic gathering for: 29
+Stopped statistic gathering for: 23
+Stopped statistic gathering for: 14
+Stopped statistic gathering for: 22
+Stopped statistic gathering for: 26
+Stopped statistic gathering for: 18
+Stopped statistic gathering for: 17
+Stopped statistic gathering for: 24
+Stopped statistic gathering for: 2
+Stopped statistic gathering for: 12
+Stopped statistic gathering for: 27
+Stopped statistic gathering for: 3
+Stopped statistic gathering for: 0
+Stopped statistic gathering for: 4
+Stopped statistic gathering for: 20
+Stopped statistic gathering for: 6
+Stopped statistic gathering for: 1
+Stopped statistic gathering for: 19
+Stopped statistic gathering for: 11
+Stopped statistic gathering for: 10
+Stopped statistic gathering for: 21
+Stopped statistic gathering for: 25
+Stopped statistic gathering for: 28
+starting to combine the statistic
+combining statistic for peer: 0
+combining statistic for peer: 1
+combining statistic for peer: 2
+combining statistic for peer: 3
+combining statistic for peer: 4
+combining statistic for peer: 5
+combining statistic for peer: 6
+combining statistic for peer: 7
+combining statistic for peer: 8
+combining statistic for peer: 9
+combining statistic for peer: 10
+combining statistic for peer: 11
+combining statistic for peer: 12
+combining statistic for peer: 13
+combining statistic for peer: 14
+combining statistic for peer: 15
+combining statistic for peer: 16
+combining statistic for peer: 17
+combining statistic for peer: 18
+combining statistic for peer: 19
+combining statistic for peer: 20
+combining statistic for peer: 21
+combining statistic for peer: 22
+combining statistic for peer: 23
+combining statistic for peer: 24
+combining statistic for peer: 25
+combining statistic for peer: 26
+combining statistic for peer: 27
+combining statistic for peer: 28
+combining statistic for peer: 29
+run 3
+range 10
+ramping up..
+5036
+9737
+5193
+2488
+5848
+8797
+718
+3348
+8006
+7921
+3289
+4650
+9080
+6723
+24
+9387
+1090
+1254
+2427
+9971
+3690
+2698
+4689
+1582
+7683
+4714
+3809
+932
+7195
+5171
+launching Peer 14
+signing in client: 14
+launching Peer 6
+signing in client: 6
+launching Peer 27
+signing in client: 27
+launching Peer 16
+signing in client: 16
+launching Peer 17
+signing in client: 17
+launching Peer 23
+signing in client: 23
+launching Peer 18
+launching Peer 3
+signing in client: 18
+signing in client: 3
+launching Peer 21
+signing in client: 21
+launching Peer 10
+launching Peer 7
+signing in client: 10
+signing in client: 7
+launching Peer 20
+launching Peer 26
+signing in client: 20
+signing in client: 26
+launching Peer 11
+launching Peer 22
+launching Peer 25
+signing in client: 11
+signing in client: 22
+signing in client: 25
+launching Peer 0
+signing in client: 0
+launching Peer 29
+launching Peer 2
+signing in client: 29
+signing in client: 2
+launching Peer 4
+signing in client: 4
+launching Peer 13
+signing in client: 13
+launching Peer 28
+signing in client: 28
+launching Peer 24
+signing in client: 24
+launching Peer 9
+launching Peer 8
+signing in client: 9
+signing in client: 8
+launching Peer 5
+signing in client: 5
+launching Peer 12
+signing in client: 12
+launching Peer 15
+signing in client: 15
+launching Peer 1
+signing in client: 1
+launching Peer 19
+signing in client: 19
+Started statistic gathering for: 14
+Started statistic gathering for: 6
+Started statistic gathering for: 27
+Started statistic gathering for: 17
+Started statistic gathering for: 23
+Started statistic gathering for: 16
+Started statistic gathering for: 18
+Started statistic gathering for: 7
+Started statistic gathering for: 3
+Started statistic gathering for: 10
+Started statistic gathering for: 21
+Started statistic gathering for: 20
+Started statistic gathering for: 26
+Started statistic gathering for: 0
+Navigating peer 14 to /courses/
+Started statistic gathering for: 25
+Started statistic gathering for: 29
+Navigating peer 6 to /courses/
+Started statistic gathering for: 22
+Started statistic gathering for: 11
+Navigating peer 27 to /courses/
+Started statistic gathering for: 2
+Navigating peer 17 to /courses/
+Navigating peer 16 to /courses/
+Started statistic gathering for: 4
+Navigating peer 23 to /courses/
+Started statistic gathering for: 28
+Navigating peer 18 to /courses/
+Started statistic gathering for: 13
+Started statistic gathering for: 24
+Navigating peer 14 to Course details
+Navigating peer 6 to Course details
+Navigating peer 27 to Course details
+Navigating peer 7 to /courses/
+Navigating peer 17 to Course details
+Navigating peer 21 to /courses/
+Navigating peer 3 to /courses/
+Navigating peer 20 to /courses/
+Navigating peer 10 to /courses/
+Started statistic gathering for: 5
+Started statistic gathering for: 9
+Started statistic gathering for: 19
+Started statistic gathering for: 8
+Started statistic gathering for: 15
+Started statistic gathering for: 12
+Started statistic gathering for: 1
+Navigating peer 16 to Course details
+Navigating peer 23 to Course details
+Navigating peer 26 to /courses/
+Navigating peer 18 to Course details
+Navigating peer 0 to /courses/
+Navigating peer 25 to /courses/
+Navigating peer 22 to /courses/
+Navigating peer 29 to /courses/
+Navigating peer 11 to /courses/
+Navigating peer 2 to /courses/
+Navigating peer 28 to /courses/
+Navigating peer 13 to /courses/
+Navigating peer 4 to /courses/
+Navigating peer 14 to Course Topic
+Navigating peer 6 to Course Topic
+Navigating peer 27 to Course Topic
+Navigating peer 17 to Course Topic
+Navigating peer 7 to Course details
+Navigating peer 20 to Course details
+Navigating peer 21 to Course details
+Navigating peer 10 to Course details
+Navigating peer 3 to Course details
+Navigating peer 24 to /courses/
+Navigating peer 16 to Course Topic
+Navigating peer 23 to Course Topic
+Navigating peer 26 to Course details
+Navigating peer 18 to Course Topic
+Navigating peer 8 to /courses/
+Navigating peer 19 to /courses/
+Navigating peer 15 to /courses/
+Navigating peer 1 to /courses/
+Navigating peer 9 to /courses/
+Navigating peer 12 to /courses/
+Navigating peer 5 to /courses/
+Navigating peer 0 to Course details
+Navigating peer 25 to Course details
+Navigating peer 22 to Course details
+Navigating peer 29 to Course details
+Navigating peer 11 to Course details
+Navigating peer 2 to Course details
+Navigating peer 28 to Course details
+Navigating peer 13 to Course details
+Navigating peer 4 to Course details
+Navigating peer 7 to Course Topic
+Navigating peer 20 to Course Topic
+Navigating peer 10 to Course Topic
+Navigating peer 21 to Course Topic
+Navigating peer 3 to Course Topic
+Navigating peer 24 to Course details
+Navigating peer 26 to Course Topic
+Navigating peer 8 to Course details
+Navigating peer 19 to Course details
+Navigating peer 15 to Course details
+Navigating peer 1 to Course details
+Navigating peer 9 to Course details
+Navigating peer 12 to Course details
+Navigating peer 5 to Course details
+Navigating peer 0 to Course Topic
+Navigating peer 25 to Course Topic
+Navigating peer 22 to Course Topic
+Navigating peer 11 to Course Topic
+Navigating peer 29 to Course Topic
+Navigating peer 2 to Course Topic
+Navigating peer 28 to Course Topic
+Navigating peer 13 to Course Topic
+Navigating peer 4 to Course Topic
+Navigating peer 24 to Course Topic
+Navigating peer 8 to Course Topic
+Navigating peer 19 to Course Topic
+Navigating peer 15 to Course Topic
+Navigating peer 1 to Course Topic
+Navigating peer 9 to Course Topic
+Navigating peer 12 to Course Topic
+Navigating peer 5 to Course Topic
+All test runs completed
+Gathering statistics
+Stopped statistic gathering for: 1
+Stopped statistic gathering for: 8
+Stopped statistic gathering for: 19
+Stopped statistic gathering for: 5
+Stopped statistic gathering for: 9
+Stopped statistic gathering for: 15
+Stopped statistic gathering for: 12
+Stopped statistic gathering for: 25
+Stopped statistic gathering for: 20
+Stopped statistic gathering for: 29
+Stopped statistic gathering for: 4
+Stopped statistic gathering for: 2
+Stopped statistic gathering for: 13
+Stopped statistic gathering for: 17
+Stopped statistic gathering for: 6
+Stopped statistic gathering for: 14
+Stopped statistic gathering for: 22
+Stopped statistic gathering for: 28
+Stopped statistic gathering for: 10
+Stopped statistic gathering for: 21
+Stopped statistic gathering for: 23
+Stopped statistic gathering for: 3
+Stopped statistic gathering for: 11
+Stopped statistic gathering for: 24
+Stopped statistic gathering for: 27
+Stopped statistic gathering for: 18
+Stopped statistic gathering for: 26
+Stopped statistic gathering for: 0
+Stopped statistic gathering for: 16
+Stopped statistic gathering for: 7
+starting to combine the statistic
+combining statistic for peer: 0
+combining statistic for peer: 1
+combining statistic for peer: 2
+combining statistic for peer: 3
+combining statistic for peer: 4
+combining statistic for peer: 5
+combining statistic for peer: 6
+combining statistic for peer: 7
+combining statistic for peer: 8
+combining statistic for peer: 9
+combining statistic for peer: 10
+combining statistic for peer: 11
+combining statistic for peer: 12
+combining statistic for peer: 13
+combining statistic for peer: 14
+combining statistic for peer: 15
+combining statistic for peer: 16
+combining statistic for peer: 17
+combining statistic for peer: 18
+combining statistic for peer: 19
+combining statistic for peer: 20
+combining statistic for peer: 21
+combining statistic for peer: 22
+combining statistic for peer: 23
+combining statistic for peer: 24
+combining statistic for peer: 25
+combining statistic for peer: 26
+combining statistic for peer: 27
+combining statistic for peer: 28
+combining statistic for peer: 29
+starting to benchmark 30
+run 1
+range 30
+ramping up..
+7585
+480
+6509
+17135
+5422
+6281
+2495
+19473
+24064
+29478
+1503
+27938
+2363
+9216
+14310
+15832
+15062
+10452
+12440
+9921
+12122
+16194
+773
+13773
+13508
+16582
+24121
+5424
+26747
+27494
+launching Peer 1
+signing in client: 1
+launching Peer 22
+signing in client: 22
+launching Peer 10
+signing in client: 10
+launching Peer 12
+signing in client: 12
+launching Peer 6
+signing in client: 6
+launching Peer 4
+launching Peer 27
+signing in client: 27
+signing in client: 4
+launching Peer 5
+signing in client: 5
+launching Peer 2
+signing in client: 2
+launching Peer 0
+signing in client: 0
+launching Peer 13
+signing in client: 13
+launching Peer 19
+signing in client: 19
+launching Peer 17
+signing in client: 17
+launching Peer 20
+signing in client: 20
+launching Peer 18
+signing in client: 18
+Started statistic gathering for: 1
+Started statistic gathering for: 22
+launching Peer 24
+signing in client: 24
+launching Peer 23
+signing in client: 23
+launching Peer 14
+signing in client: 14
+Started statistic gathering for: 10
+launching Peer 16
+signing in client: 16
+Started statistic gathering for: 12
+launching Peer 15
+signing in client: 15
+launching Peer 21
+signing in client: 21
+Started statistic gathering for: 6
+launching Peer 25
+signing in client: 25
+launching Peer 3
+signing in client: 3
+Started statistic gathering for: 27
+Started statistic gathering for: 4
+launching Peer 7
+signing in client: 7
+Started statistic gathering for: 5
+Started statistic gathering for: 2
+Started statistic gathering for: 0
+launching Peer 8
+Started statistic gathering for: 13
+launching Peer 26
+signing in client: 8
+signing in client: 26
+Navigating peer 22 to /courses/
+Navigating peer 1 to /courses/
+Started statistic gathering for: 19
+Started statistic gathering for: 17
+Navigating peer 10 to /courses/
+Navigating peer 12 to /courses/
+Started statistic gathering for: 20
+Started statistic gathering for: 18
+launching Peer 28
+signing in client: 28
+Navigating peer 6 to /courses/
+launching Peer 29
+signing in client: 29
+launching Peer 11
+signing in client: 11
+Started statistic gathering for: 24
+Started statistic gathering for: 23
+Started statistic gathering for: 14
+Started statistic gathering for: 16
+launching Peer 9
+Navigating peer 4 to /courses/
+Started statistic gathering for: 15
+signing in client: 9
+Started statistic gathering for: 21
+Started statistic gathering for: 25
+Navigating peer 27 to /courses/
+Navigating peer 2 to /courses/
+Navigating peer 5 to /courses/
+Navigating peer 22 to Course details
+Navigating peer 1 to Course details
+Started statistic gathering for: 3
+Navigating peer 0 to /courses/
+Navigating peer 10 to Course details
+Navigating peer 12 to Course details
+Navigating peer 6 to Course details
+Started statistic gathering for: 7
+Navigating peer 13 to /courses/
+Navigating peer 17 to /courses/
+Navigating peer 19 to /courses/
+Navigating peer 20 to /courses/
+Navigating peer 18 to /courses/
+Navigating peer 4 to Course details
+Navigating peer 27 to Course details
+Started statistic gathering for: 26
+Started statistic gathering for: 8
+Navigating peer 24 to /courses/
+Navigating peer 23 to /courses/
+Navigating peer 2 to Course details
+Navigating peer 5 to Course details
+Navigating peer 14 to /courses/
+Started statistic gathering for: 28
+Navigating peer 22 to Course Topic
+Navigating peer 1 to Course Topic
+Navigating peer 0 to Course details
+Navigating peer 16 to /courses/
+Navigating peer 10 to Course Topic
+Navigating peer 21 to /courses/
+Navigating peer 15 to /courses/
+Navigating peer 12 to Course Topic
+Navigating peer 25 to /courses/
+Started statistic gathering for: 29
+Navigating peer 6 to Course Topic
+Started statistic gathering for: 11
+Navigating peer 13 to Course details
+Started statistic gathering for: 9
+Navigating peer 17 to Course details
+Navigating peer 3 to /courses/
+Navigating peer 19 to Course details
+Navigating peer 20 to Course details
+Navigating peer 18 to Course details
+Navigating peer 4 to Course Topic
+Navigating peer 7 to /courses/
+Navigating peer 27 to Course Topic
+Navigating peer 24 to Course details
+Navigating peer 23 to Course details
+Navigating peer 2 to Course Topic
+Navigating peer 5 to Course Topic
+Navigating peer 14 to Course details
+Navigating peer 0 to Course Topic
+Navigating peer 16 to Course details
+Navigating peer 21 to Course details
+Navigating peer 15 to Course details
+Navigating peer 25 to Course details
+Navigating peer 26 to /courses/
+Navigating peer 8 to /courses/
+Navigating peer 13 to Course Topic
+Navigating peer 28 to /courses/
+Navigating peer 17 to Course Topic
+Navigating peer 3 to Course details
+Navigating peer 19 to Course Topic
+Navigating peer 20 to Course Topic
+Navigating peer 18 to Course Topic
+Navigating peer 29 to /courses/
+Navigating peer 7 to Course details
+Navigating peer 11 to /courses/
+Navigating peer 9 to /courses/
+Navigating peer 24 to Course Topic
+Navigating peer 23 to Course Topic
+Navigating peer 14 to Course Topic
+Navigating peer 16 to Course Topic
+Navigating peer 21 to Course Topic
+Navigating peer 15 to Course Topic
+Navigating peer 25 to Course Topic
+Navigating peer 26 to Course details
+Navigating peer 8 to Course details
+Navigating peer 28 to Course details
+Navigating peer 3 to Course Topic
+Navigating peer 29 to Course details
+Navigating peer 7 to Course Topic
+Navigating peer 11 to Course details
+Navigating peer 9 to Course details
+Navigating peer 26 to Course Topic
