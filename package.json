@@ -14,7 +14,7 @@
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "express-session": "^1.16.1",
-    "fast-csv": "^2.4.1",
+    "fast-csv": "^4.3.6",
     "faye": "^1.2.4",
     "puppeteer": "^1.14.0",
     "webrtc-p2p-cdn": "schul-cloud/p2p#master"
